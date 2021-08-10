@@ -8,9 +8,12 @@
           p Keep exploring the world with curious mind and imaginations.
           
             
-          a(href="https://www.instagram.com/bosscodingplease/" target="_blank" title="Instagram") 
+          a(href="https://www.instagram.com/bosscodingplease/" target="_blank" title="Instagram").mr-5
             i.fab.fa-instagram 
             span  bosscodingplease
+          a(href="https://twitter.com/Majer666666" target="_blank" title="Instagram")
+            i.fab.fa-twitter 
+            span  Twitter
           a(href="https://foundation.app/@cheyuwu" target="_blank" title="Instagram") 
             img.icon(src="/static/icon_foundation.jpeg" )
             span  Foundation
@@ -100,7 +103,7 @@ export default {
     box-shadow: 0px 40px 30px -20px rgba(black,0.1)
   .icon
     filter: saturate(0)
-    height: 30px
+    height: 25px
     width: auto
     margin-left: 50px
   
