@@ -7,13 +7,16 @@
         .col-sm-12.col-info.text-left
           //- img.head.animated.fadeIn(src="/static/img/head2.jpg")
           h1 Che-Yu Wu
-          h5.mt-1 Interaction Designer, Creative Technologist
-          pre MS in Integrated Digital Media @ New York University
+          h5.mt-1 New Media Artist, Interaction Designer, Creative Technologist
+          pre Senior Product Manager @ Outernets
           br
           p Devoted to Creative Coding, immersive user experience design,<br> full-stack development, sound synthesis, and tutoring.
           ul.mt-4
             li 
-              b 2018-2019 
+              b 2020-2021 
+              span  | Senior Product Manager / Creative Technologist @ Outernets
+            li 
+              b 2018-2020 
               span  | NYU IDM Graduate Research Assistant @ New York University
             li 
               b 2019 
