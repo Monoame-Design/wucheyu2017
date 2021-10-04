@@ -44,9 +44,9 @@ import showdown from 'showdown'
 import p5 from 'p5'
 let pData = `# Che-Yu Wu 吳哲宇
 
-New Media Artist / Senior Product Manager at Outernets / Founder of Monoame Design / Graphic Designer / Musician / Interaction Engineer / Lecturer / Tech Youtuber
+New Media Artist / Senior Product Manager at Outernets / Founder of Monoame Design / Interaction Engineer / Graphic Designer / Musician / Lecturer / Tech Youtuber
 
-![](https://i.imgur.com/fYCLCmn.jpg =300x300) 
+![](https://i.imgur.com/fYCLCmn.jpg =500x500) 
 
 ## Bio
 
