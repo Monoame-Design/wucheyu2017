@@ -11,13 +11,13 @@
             router-link(to="/")
               h2 CHE-YU WU
             div.subroute(:class="{white: $route.path=='/about'}")
-              router-link(to="/" :class="{active: $route.path=='/'}") Works
+              router-link(to="/" :class="{active: $route.path=='/'}") Work
               router-link(to="/about" :class="{active: $route.path=='/about'}") About
               //router-link(to="/experiment" :class="{active: $route.path=='/experiment'}") Experiments
-              router-link(to="/arts" :class="{active: $route.path=='/arts'}") Arts
+              router-link(to="/arts" :class="{active: $route.path=='/arts'}") Art
               router-link(to="/thesis" :class="{active: $route.path=='/thesis'}") Thesis
               //- router-link(to="/research" :class="{active: $route.path=='/research'}") Research
-              a(href="/static/Che-Yu Wu Resume.pdf" target="blank" :class="{active: $route.path=='/resume'}") Resume
+              //- a(href="/static/Che-Yu Wu Resume.pdf" target="blank" :class="{active: $route.path=='/resume'}") Resume
     transition(name="page" , mode="out-in")
       pageLoading(v-if="loading")
     transition(name="page" , mode="out-in")

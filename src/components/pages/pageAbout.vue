@@ -307,10 +307,14 @@ export default {
 .page-about
   // font-size: 22px
   img
-    max-width: 100%
-    &:first-child
-      max-width: 500px
+    width: 100%
+    max-width: 100% 
+  h1+p+p>img
+    max-width: 500px
+      // max-width: 500px
   text-align: left
+  h1
+    font-size: 2.2rem
   h2
     margin-top: 36px
     border-bottom: solid 2px black
