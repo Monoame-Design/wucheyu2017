@@ -46,7 +46,7 @@ let pData = `# Che-Yu Wu 吳哲宇
 
 New Media Artist / Senior Product Manager at Outernets / Founder of Monoame Design / Interaction Engineer / Graphic Designer / Musician / Lecturer / Tech Youtuber
 
-![](https://i.imgur.com/fYCLCmn.jpg) 
+![](https://i.imgur.com/fYCLCmn.jpg =300x300) 
 
 ## Bio
 
@@ -84,7 +84,7 @@ In recent years, he devoted himself to advocating for and introducing over ten t
     - Lead the intern team develop applications on Oculus Rift S, Leap Motion, Vive Pro and Magic Leap
     - Direct the demo video for Rain Forest MR project applying to the Epic Game Grant.
     - Integrating Evolution Algorithm in Unreal Engine, controlling AI plant placement.
-- **Research Assistant / [New York University](https://www.nyu.edu/)** / 2018/09 - 2020/05
+- **Research Assistant / [New York University, Integrated Digital Media](http://idm.engineering.nyu.edu/)** / 2018/09 - 2020/05
     - Construct the TA system of Creative Coding class on IDM, assisted more than 40 students.
     - Provide technical support for 6 class sessions on p5.js, coding arts, interactive games, data visualization, and Arduino & Wearable hardware development projects.
     - Participate in Machine Learning Art projects and assist Course Material Management.
@@ -151,7 +151,8 @@ Developer Youtube Channel [Boss, Coding Please](https://www.youtube.com/channel/
 - [Making Fireworks festival with p5.js](https://www.youtube.com/watch?v=vvVwUMqoxIM) Creative Coding 花火大會教學
 
 
-## Speakership 
+## Speakership
+![](https://i.imgur.com/vkmXPWN.jpg)
 
 - p5.js Creative Coding for Interactive Art 101 (upcoming) / [**Taiwan Contemporary Culture Lab (C-LAB)**](https://clab.org.tw/en/) / Taipei, Taiwan
 - The Interaction of generative music / [**Live Code NYC**](https://livecode.nyc/) / New York
@@ -212,6 +213,7 @@ Developer Youtube Channel [Boss, Coding Please](https://www.youtube.com/channel/
 * Others
     * [建中生拍祈福影片「日本加油」 - 蘋果日報](https://tw.appledaily.com/headline/20110320/LNX3FN4T7KRXNOG2SHLBPFXY64/ )  /  Apple Daily News 蘋果日報
     * [UDN TV：【為自己按讚】吳哲宇.林自均](https://www.youtube.com/watch?v=uWG3IgBa6-0) / United Daily News 聯合報
+
 `
 
 function bg(sketch){
@@ -311,11 +313,13 @@ export default {
     max-width: 100% 
   h1+p+p>img
     max-width: 500px
+    height: auto
       // max-width: 500px
   text-align: left
   h1
     font-size: 2.2rem
   h2
+    font-size: 1.5rem
     margin-top: 36px
     border-bottom: solid 2px black
 
