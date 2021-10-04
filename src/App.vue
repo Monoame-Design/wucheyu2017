@@ -4,7 +4,8 @@
       .row
         .col-sm-12
           nav(v-if="!$route.path.includes('manage') && !$route.path.includes('/project/')",
-              :class="{white: $route.path=='/about'}")
+              
+              )
             //- router-link(to="/" :class="{active: $route.path=='/'}") Index
             //- router-link(to="/about" :class="{active: $route.path=='/about'}") About
             router-link(to="/")
