@@ -42,7 +42,8 @@ import socialLinks from '@/components/socialLinks'
 
 import showdown from 'showdown'
 import p5 from 'p5'
-let pData = `# Che-Yu Wu 吳哲宇
+let pData = `
+# Che-Yu Wu 吳哲宇
 
 New Media Artist / Senior Product Manager at Outernets / Founder of Monoame Design / Interaction Engineer / Graphic Designer / Musician / Lecturer / Tech Youtuber
 
@@ -54,7 +55,7 @@ Che-Yu Wu is the founder of [Monoame Design](https://monoame.com/), **New media 
 
 Che-Yu founded [Monoame Design](https://monoame.com/) 8 years ago and worked with clients like [Department of Rapid Transit Systems](https://en.wikipedia.org/wiki/Department_of_Rapid_Transit_Systems,_Taipei_City_Government), [Nissan](https://www.nissanusa.com/), [National Palace Museum](https://www.npm.gov.tw/?l=2) and [Industrial Technology Research Institute](https://www.itri.org.tw/english/), [Taipei Computer Association](https://www.tca.org.tw/en/), [Taipei City Government ](https://english.gov.taipei/), [National Center for High‑Performance Computing](https://www.nchc.org.tw/?langid=2), [RemyMartin & Selinko](https://selinko.com/press/remy-martin-club-connected-bottle/) ... to provide dynamic experience applications and solutions.
 
-In recent years, he devoted himself to advocating for and introducing over ten thousands students to creative coding through his Hahow online courses on animated website development and creative coding for interactive art.
+In recent years after graduating from [**New York University, Integrated Digital Media MS**](http://idm.engineering.nyu.edu/), he devoted himself to advocating for and introducing over ten thousands students to **creative coding and new media art** through his Hahow online courses on animated website development and creative coding for interactive experience design.
 
 ## Research Interest
 - Generative Art (Creative Coding)
