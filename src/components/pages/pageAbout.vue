@@ -46,7 +46,7 @@ let pData = `# Che-Yu Wu 吳哲宇
 
 New Media Artist / Senior Product Manager at Outernets / Founder of Monoame Design / Interaction Engineer / Graphic Designer / Musician / Lecturer / Tech Youtuber
 
-![](https://i.imgur.com/fYCLCmn.jpg =500x500) 
+![](https://i.imgur.com/fYCLCmn.jpg) 
 
 ## Bio
 
@@ -305,9 +305,11 @@ export default {
 
 <style lang="sass">
 .page-about
-  font-size: 22px
+  // font-size: 22px
   img
     max-width: 100%
+    &:first-child
+      max-width: 500px
   text-align: left
   h2
     margin-top: 36px
