@@ -275,7 +275,9 @@ function bg(sketch){
   }
   }
 
-let converter = new showdown.Converter()
+let converter = new showdown.Converter({
+  openLinksInNewWindow: true,
+});
 export default {
   mounted(){
       var cnv 
