@@ -157,7 +157,7 @@ Developer Youtube Channel [Boss, Coding Please](https://www.youtube.com/channel/
 
 - p5.js Creative Coding for Interactive Art 101 (upcoming) / [**Taiwan Contemporary Culture Lab (C-LAB)**](https://clab.org.tw/en/) / Taipei, Taiwan
 - The Interaction of generative music / [**Live Code NYC**](https://livecode.nyc/) / New York
-- Creative Coding and Generative Art Seminar / [**Instutute of Inforamtion Systems and Applications, National Tsing Hua University** ](https://isa.site.nthu.edu.tw/p/406-1182-187768,r2619.php?Lang=zh-tw) / Hsinchu, Taiwan
+- [Creative Coding and Generative Art Seminar](https://www.youtube.com/watch?v=a0mhixudWE4) / [**Instutute of Inforamtion Systems and Applications, National Tsing Hua University** ](https://isa.site.nthu.edu.tw/p/406-1182-187768,r2619.php?Lang=zh-tw) / Hsinchu, Taiwan
 - [Making interactive robots with p5.js & Creative coding](https://www.youtube.com/watch?v=oPDW3huKK-Y) / **Hahow 好學校** / Taipei, Taiwan
 - [Making Interactive website with Vue, GSAP and d3.js and the strategy to intergrate the frameworks](https://www.youtube.com/watch?v=XLZ3lahTOWU) / [**MOPCON 2017**](https://mopcon.org/2017/?&lang=en) / Kaohsiung, Taiwan
 - Getting onboard and experience the magic of Vue.js in 2hr  / [**Alpha Camp**](https://tw.alphacamp.co/) / Taipei, Taiwan
