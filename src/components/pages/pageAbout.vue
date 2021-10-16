@@ -1,5 +1,10 @@
 <template lang="pug">
   .page.page-about#page_about
+    //- pre {{anchors}}
+    ul.linkList
+      li(v-for="anchor in anchors")
+        a(:href="'#'+anchor.href",
+         @click="scrollTo(anchor.href)") {{ anchor.title }}
     .container.pt-5.content(v-html="htmlContent")
       //- .row
       //-   .col-sm-12
@@ -301,12 +306,27 @@ export default {
   components: {
     socialLinks
   },
+  methods: {
+    scrollTo(id){
+      let el = document.getElementById(id)
+      let elTop = el.offsetTop
+      // console.log(id,el)
+      window.scrollTo(0,elTop)
+    }
+  },
   beforeDestroy(){
-    this.bgsketch.remove()
+    // this.bgsketch.remove()
   },
   computed: {
     htmlContent(){
       return converter.makeHtml(this.pData)
+    },
+    anchors(){
+      return this.pData.split(/\r?\n/).filter(str=>str.indexOf("## ")==0).map(str=>({
+        title: str.slice(3),
+        href: str.slice(3).toLowerCase().split(' ').join("")
+      }))
+
     }
   }
 }
@@ -315,6 +335,29 @@ export default {
 <style lang="sass">
 .page-about
   // font-size: 22px
+  .linkList
+    position: fixed
+    left: 10px
+    top: 50%
+    transform: translateY(-50%)
+    list-style: none
+    color: black
+    display: none
+    @media only screen and (min-width: 1600px)
+      display: block
+    a
+      color: black
+    li
+      opacity: 0.5
+      transition-duration: 0.5s
+
+      &:hover
+        opacity: 1
+        font-weight: 800
+      &:before
+        display: inline-block
+        content: "- "
+        margin-right: 5px
   img
     width: 100%
     max-width: 100%
