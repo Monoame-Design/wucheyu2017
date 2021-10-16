@@ -12,25 +12,25 @@
           //- br
           //- p Devoted to Creative Coding, immersive user experience design,<br> full-stack development, sound synthesis, and tutoring.
           //- ul.mt-4
-          //-   li 
-          //-     b 2020-2021 
+          //-   li
+          //-     b 2020-2021
           //-     span  | Senior Product Manager / Creative Technologist @ Outernets
-          //-   li 
-          //-     b 2018-2020 
+          //-   li
+          //-     b 2018-2020
           //-     span  | NYU IDM Graduate Research Assistant @ New York University
-          //-   li 
-          //-     b 2019 
+          //-   li
+          //-     b 2019
           //-     span  | VR / AR Development Intern @ New Reality Co.
-          //-   li 
+          //-   li
           //-     b 2018
           //-     span  | System Engineer @Research Center for Technology and art, Tsing Hua College
-          //-   li 
+          //-   li
           //-     b 2017
           //-     span  | Teacher @ Hahow, Startup of Online education
-          //-   li 
+          //-   li
           //-     b 2014-2018
           //-     span  | Designer / Full-stack Developer @ Monoame Design Studio
-          //-   li 
+          //-   li
           //-     b 2014
           //-     span  | Cartography and AutoLISP Revelopmer @ Shyang-Horng AutoCAD Tech. Center
           //- //- social-links
@@ -42,16 +42,18 @@ import socialLinks from '@/components/socialLinks'
 
 import showdown from 'showdown'
 import p5 from 'p5'
+
+// https://hackmd.io/iqCoVGVATm-xEloPigNyUw
 let pData = `
 # Che-Yu Wu 吳哲宇
 
 New Media Artist / Senior Product Manager at Outernets / Founder of Monoame Design / Interaction Engineer / Graphic Designer / Musician / Lecturer / Tech Youtuber
 
-![](https://i.imgur.com/fYCLCmn.jpg =300x300) 
+![](https://i.imgur.com/fYCLCmn.jpg =300x300)
 
 ## Bio
 
-Che-Yu Wu is the founder of [Monoame Design](https://monoame.com/), **New media artist, designer, engineer, speaker, and entrepreneur** who enjoys quirky and unique things. By combining the rationality of his electrical engineering background in [National Yang Ming Chiao Tung University](https://www.nycu.edu.tw/) with the sentimentality of visual design, he draws inspirations from **nature, physics, modern art, mathematical rhythm, and music** to create compounding algorithmic works, explore the border between art and engineering, and establish unparalleled interactive experiences. 
+Che-Yu Wu is the founder of [Monoame Design](https://monoame.com/), **New media artist, designer, engineer, speaker, and entrepreneur** who enjoys quirky and unique things. By combining the rationality of his electrical engineering background in [National Yang Ming Chiao Tung University](https://www.nycu.edu.tw/) with the sentimentality of visual design, he draws inspirations from **nature, physics, modern art, mathematical rhythm, and music** to create compounding algorithmic works, explore the border between art and engineering, and establish unparalleled interactive experiences.
 
 Che-Yu founded [Monoame Design](https://monoame.com/) 8 years ago and worked with clients like [Department of Rapid Transit Systems](https://en.wikipedia.org/wiki/Department_of_Rapid_Transit_Systems,_Taipei_City_Government), [Nissan](https://www.nissanusa.com/), [National Palace Museum](https://www.npm.gov.tw/?l=2) and [Industrial Technology Research Institute](https://www.itri.org.tw/english/), [Taipei Computer Association](https://www.tca.org.tw/en/), [Taipei City Government ](https://english.gov.taipei/), [National Center for High‑Performance Computing](https://www.nchc.org.tw/?langid=2), [RemyMartin & Selinko](https://selinko.com/press/remy-martin-club-connected-bottle/) ... to provide dynamic experience applications and solutions.
 
@@ -77,7 +79,7 @@ In recent years after graduating from [**New York University, Integrated Digital
     - Leaded teams of 3-8 people and execute 40+ company website development and branding projects for clients such as RemyMartin, Department of Rapid Transit Systems, National Palace Museum and Industrial Technology Research Institute.
     - Focused on createing unique digital experience, branding strategy, visual guidelines, interactive website solution for brands.
     - Founded CreativeCoding.in media & tutorial platform to organize creative coding & new media art materials for who want to get familiar with the field
-- **Senior Product Manager / Senior Creative Technologist** / [Outernets](https://outernets.ai/) / 2020/07 - present
+- **Senior Product Manager / Senior Creative Technologist** / [**Outernets**](https://outernets.ai/) / 2020/07 - present
     - Lead the design and dev team to develop the leading-edge new interactive experience solution management and creation system.
     - Apply Computer Vision, game/application design, and data analytics to provide interactive advertisements experience for brands.
 - **Unreal VR/AR Engineer  / [New Reality Company, R/GA](http://newreality.co/)** / 2019/05 - 2019/08
@@ -102,7 +104,7 @@ In recent years after graduating from [**New York University, Integrated Digital
 - FutureTech Showcase Selected Work - Floating in the Sky / **Palpable Media & Deloitte** / 2020
 - Accepted VR Work - Floating in the Sky, an experience of exploring the VR world with a floating umbrella (physical computing + VR) / **[NYC Media Lab](https://www.nycmedialab.org/) Exhibition** / 2020
 - [1st Prize and Grand Prize of the Practitioner Group](https://digi.ey.gov.tw/Page/1538F8CF7474AB4E/cd53e320-984b-426b-ac0a-2cdf0bc6083a)  / **Smart City Hackathon hosted by Industrial Development Bureau Taiwan** / Taipei / 2016
-- 1st Prize and Grand Prize of the Microsoft group / **Meizhu Hachthon (National Tsing Hua University & National Chiao Tung University)** / 
+- 1st Prize and Grand Prize of the Microsoft group / **Meizhu Hachthon (National Tsing Hua University & National Chiao Tung University)** /
 - 1st Prize / **Intelligent Ironman Creativity Contest** / 2013
 - 1st Prize and Grand Prize of the Jury / **9th Acer Digital Innovation Award** / Taipei / 2013
 - 2nd Prize of the Jury / **8th Acer Digital Innovation Award** / Taipei / 2012
@@ -114,7 +116,7 @@ In recent years after graduating from [**New York University, Integrated Digital
 
 ![](https://i.imgur.com/g6CzpEG.jpg)
 
-* [Thesis - Intuitive Music Expression Tool ](https://cheyuwu.com/thesis) / **[New York University, Integrated Digital Media](http://idm.engineering.nyu.edu/)** / [Demo](https://www.youtube.com/watch?v=iclQBGiTfiQ) - A web-based tool (made with p5.js) that allowed people to work together, edit and change the melody in an intuitive way. 
+* [Thesis - Intuitive Music Expression Tool ](https://cheyuwu.com/thesis) / **[New York University, Integrated Digital Media](http://idm.engineering.nyu.edu/)** / [Demo](https://www.youtube.com/watch?v=iclQBGiTfiQ) - A web-based tool (made with p5.js) that allowed people to work together, edit and change the melody in an intuitive way.
 * [Floating in the sky - VR experience](https://cheyuwu.com/project/Floating_in_the_sky_-_VR_experience) / **[New York University, IDM](http://idm.engineering.nyu.edu/)**
     Floating in the sky is a first person VR experience, which allows you to escape from the dark city and explore the beautiful world using a magic umbrella to control your movement in the sky.
 * [EXPLODE - Motion Capture Performance](https://cheyuwu.com/project/EXPLODE_-_Motion_Capture_Performance) / **[New York University, IDM](http://idm.engineering.nyu.edu/)**
@@ -122,7 +124,7 @@ In recent years after graduating from [**New York University, Integrated Digital
 * VR L-system tree planting experience / [**New Reality Company**](http://newreality.co/) / [Demo](https://www.youtube.com/watch?v=GnyrFudDV6I)
     Making an interactive seed-planting experience using Oculus Rift * Leap motion to create a intuitive and immersive application.
 * [Taipei Metro Soundscape - Interactive Website](https://cheyuwu.com/project/Taipei_Metro_Soundscape_-_Interactive_Website) / **[Monoame Design](https://monoame.com/)**
-    This project was in cooperation with Harvest Music Production. Together we ordinated the 2017 Metro Soundscape Contest, hoping to collect musical works from local musicians and providing sounds exclusively belonging to the metro stations. 
+    This project was in cooperation with Harvest Music Production. Together we ordinated the 2017 Metro Soundscape Contest, hoping to collect musical works from local musicians and providing sounds exclusively belonging to the metro stations.
 * [Nissan New Juke Presale website](https://monoame.com/works/33) / **[Monoame Design](https://monoame.com/)**
     NISSAN teamed up with Warner Music to create "the first domestic cranial orgasm sensory singer", which shocked the pop music circle
 * [RemyMartin & Selinko UI/UX Design & 3D modeling](https://monoame.com/works/5)/ **[Monoame Design](https://monoame.com/)**
@@ -132,12 +134,12 @@ In recent years after graduating from [**New York University, Integrated Digital
 
 Online Course at [Hahow](https://hahow.in/)(Taiwan's biggest online academy)
 
-- [Dynamic Interactive website Introduction HTML/CSS/JS 動態互動網頁程式入門](https://hahow.in/cr/monoame-webdesign1) at Hahow (9829 students, NT $2,000) 
+- [Dynamic Interactive website Introduction HTML/CSS/JS 動態互動網頁程式入門](https://hahow.in/cr/monoame-webdesign1) at Hahow (9829 students, NT $2,000)
 - [Dynamic advanced WebFX introduction (JS/CANVAS/GSAP) 動態互動網頁特效入門](https://hahow.in/cr/monoame-webdesign2) at Hahow (4594 students, NT $2,500)
-- [Generative Art & p5.js introduction (Creatie Coding) 互動藝術程式創作入門](https://hahow.in/cr/creative-coding-1) (2150 students, NT $2,400) 
+- [Generative Art & p5.js introduction (Creatie Coding) 互動藝術程式創作入門](https://hahow.in/cr/creative-coding-1) (2150 students, NT $2,400)
 
-## Tutorials 
-Developer Youtube Channel [Boss, Coding Please](https://www.youtube.com/channel/UCHX_XMhPrtvOmgGOnA2eTmA) (6000 followers) 
+## Tutorials
+Developer Youtube Channel [Boss, Coding Please](https://www.youtube.com/channel/UCHX_XMhPrtvOmgGOnA2eTmA) (6000 followers)
 
 ### Web developments
 - [Lets use socket.io to make a real-time interactive game! ](https://www.youtube.com/watch?v=QVZcMx3jtG8) 來用socket.io做個即時互動的遊戲吧！
@@ -154,7 +156,9 @@ Developer Youtube Channel [Boss, Coding Please](https://www.youtube.com/channel/
 
 ## Speakership
 ![](https://i.imgur.com/vkmXPWN.jpg)
-
+- Introduction to New Media, Technology and Program Art Creation / National High School Teachers in Taiwan New Media Art Teacher Seminar / Online / 2021
+- Application of Javascript in generative & Algorithm art and NFT (upcoming) / **[JavaScript Developer Conference](https://2021.jsdc.tw/aboutus)** / Online / 2021
+- Introduction to New Media Art, Technology and Generative Algorithms (upcoming) / **[Cultural Creativity and Multimedia Alliance Center, National Tsing Hua University](https://uc.itsa.org.tw/multimedia/news.php)** / Hsinchu, Taiwan / 2021
 - p5.js Creative Coding for Interactive Art 101 (upcoming) / [**Taiwan Contemporary Culture Lab (C-LAB)**](https://clab.org.tw/en/) / Taipei, Taiwan
 - The Interaction of generative music / [**Live Code NYC**](https://livecode.nyc/) / New York
 - [Creative Coding and Generative Art Seminar](https://www.youtube.com/watch?v=a0mhixudWE4) / [**Instutute of Inforamtion Systems and Applications, National Tsing Hua University** ](https://isa.site.nthu.edu.tw/p/406-1182-187768,r2619.php?Lang=zh-tw) / Hsinchu, Taiwan
@@ -165,20 +169,20 @@ Developer Youtube Channel [Boss, Coding Please](https://www.youtube.com/channel/
 - [TEDxNCUE「嚮」- Creating possibilities with a multidisciplinary mindset](https://www.youtube.com/watch?v=bl5MrZ6GA98) / **[National Changhua University of Education](https://en.ncue.edu.tw/bin/home.php)** / Changhua, Taiwan
 - The journey of self-learning Graphics Design 自學者之夜3｜平面設計篇 / [**Self-study night**](https://www.accupass.com/event/1609260802316724526560) / Taipei, Taiwan
 - [Presentation Contest](https://www.youtube.com/watch?v=OF9wkZGrGPQ) / **National Chiao Tung University** / Hsinchu, Taiwan
- 
+
 
 ## Writing
 
 * [Being a Research Assistant at New York University (在紐約大學讀研當助教的進化日誌)](https://medium.com/%E8%80%81%E9%97%86%E4%BE%86%E9%BB%9E%E5%AF%87%E6%B1%80%E5%90%A7/%E5%9C%A8%E7%B4%90%E7%B4%84%E5%A4%A7%E5%AD%B8%E8%AE%80%E7%A0%94%E7%95%B6%E5%8A%A9%E6%95%99%E7%9A%84%E9%80%B2%E5%8C%96%E6%97%A5%E8%AA%8C-b5f0d604201a) (2.5k claps)
 * [Making an online course that combine Web development, design, math and VFX (釀造一門結合網頁-設計-數學與特效的線上程式課程)](https://medium.com/%E8%80%81%E9%97%86%E4%BE%86%E9%BB%9E%E5%AF%87%E6%B1%80%E5%90%A7/%E9%87%80%E9%80%A0%E4%B8%80%E9%96%80%E7%B5%90%E5%90%88%E7%B6%B2%E9%A0%81-%E8%A8%AD%E8%A8%88-%E6%95%B8%E5%AD%B8%E8%88%87%E7%89%B9%E6%95%88%E7%9A%84%E7%B7%9A%E4%B8%8A%E7%A8%8B%E5%BC%8F%E8%AA%B2%E7%A8%8B-cef5d998c707) (4.2k claps)
-* [Not only an online web course, but a bet to evolve the community (從不只是一門線上課程-而是一場推動進化的豪賭)](https://medium.com/%E8%80%81%E9%97%86%E4%BE%86%E9%BB%9E%E5%AF%87%E6%B1%80%E5%90%A7/%E5%BE%9E%E4%B8%8D%E5%8F%AA%E6%98%AF%E4%B8%80%E9%96%80%E7%B7%9A%E4%B8%8A%E8%AA%B2%E7%A8%8B-%E8%80%8C%E6%98%AF%E4%B8%80%E5%A0%B4%E6%8E%A8%E5%8B%95%E9%80%B2%E5%8C%96%E7%9A%84%E8%B1%AA%E8%B3%AD-2016%E8%88%8A%E6%96%87%E6%95%B4%E7%90%86-48d90fee113a) 
+* [Not only an online web course, but a bet to evolve the community (從不只是一門線上課程-而是一場推動進化的豪賭)](https://medium.com/%E8%80%81%E9%97%86%E4%BE%86%E9%BB%9E%E5%AF%87%E6%B1%80%E5%90%A7/%E5%BE%9E%E4%B8%8D%E5%8F%AA%E6%98%AF%E4%B8%80%E9%96%80%E7%B7%9A%E4%B8%8A%E8%AA%B2%E7%A8%8B-%E8%80%8C%E6%98%AF%E4%B8%80%E5%A0%B4%E6%8E%A8%E5%8B%95%E9%80%B2%E5%8C%96%E7%9A%84%E8%B1%AA%E8%B3%AD-2016%E8%88%8A%E6%96%87%E6%95%B4%E7%90%86-48d90fee113a)
 
 ## Artworks
 ![](https://i.imgur.com/OimOeuY.jpg)
 
 - [Foundation | Classic Series](https://foundation.app/@cheyuwu) Classic series will only mint a maximum of 10 works per algorithm on Foundation.
 - [Opensea  | Crypto Pochi](https://opensea.io/collection/cryptopochi) CryptoPochi is an interactive NFT project that captures your daily life emotions and shapes. They laugh, cry, being lazy all the times.
-- [Generative Art NFT - Che-Yu Wu](https://opensea.io/collection/che-yu-wu-generative-art) Creative Coding Art Source Code (21 items, Out of Print Collection at 07/20/2021.) 
+- [Generative Art NFT - Che-Yu Wu](https://opensea.io/collection/che-yu-wu-generative-art) Creative Coding Art Source Code (21 items, Out of Print Collection at 07/20/2021.)
 - [Open Processing | Daily Creative Coding (400 works)](https://openprocessing.org/user/139364/?view=sketches#sketches)
 - [Why hams](https://blog.floors.cafe/why-hams/)
 
@@ -195,10 +199,10 @@ Developer Youtube Channel [Boss, Coding Please](https://www.youtube.com/channel/
     * [用 50 個小時，與 4,300 位同學一起「自己動畫互動網頁自己做」/ Crowd Watch](http://crowdwatch.tw/post/2735/?fbclid=IwAR2M0U_m0vXuHVrSixxmNcdA58TgeXUV1uf6tskwa8s5Hfila5Ppnq9sN6Y)
     * [突破線上課程低完課率，引領 4,300 名學生走入程式設計！](https://www.inside.com.tw/article/9629-how-to-create-successful-online-curriculum-fund-raising-plan) / Inside 關鍵評論網
     * [大學倒光光，為什麼它吸引6萬學生？](https://www.cw.com.tw/article/5090677) / 天下雜誌
- 
+
 * Growth & Life Style
     * [為何台灣人總要等「準備好了」才敢行動？或許我們從小教育就少了這一種態度......](https://www.storm.mg/lifestyle/251519?page=1) / 風傳媒
-    * [專訪吳哲宇：人生沒有完全準備好的時候，唯有不停進化才能騰空翱翔 / Hahow好學校](https://blog.hahow.in/interview-of-hahow-teacher-che-yu/) 
+    * [專訪吳哲宇：人生沒有完全準備好的時候，唯有不停進化才能騰空翱翔 / Hahow好學校](https://blog.hahow.in/interview-of-hahow-teacher-che-yu/)
 
 
 * New Media Art
@@ -231,7 +235,7 @@ function bg(sketch){
     sketch.background(0)
 
     sketch.stroke(255)
-    
+
     for(var i=0;i<sketch.width;i+=10){
       if (i% 50==0){
         sketch.stroke(255,255,255,0.2)
@@ -239,7 +243,7 @@ function bg(sketch){
         sketch.stroke(255,255,255,0.05)
       }
       sketch.line(i,0,i,sketch.height)
-      
+
     }
     for(var i=0;i<sketch.height;i+=10){
       if (i% 50==0){
@@ -270,9 +274,9 @@ function bg(sketch){
         sketch.translate(r,0)
       }
       sketch.pop()
-      
+
     }
-    
+
   }
   }
 
@@ -281,7 +285,7 @@ let converter = new showdown.Converter({
 });
 export default {
   mounted(){
-      var cnv 
+      var cnv
       var points = []
 
       var notes = []
@@ -313,7 +317,7 @@ export default {
   // font-size: 22px
   img
     width: 100%
-    max-width: 100% 
+    max-width: 100%
   h1+p+p>img
     max-width: 500px
     height: auto
@@ -367,7 +371,7 @@ export default {
   //   opacity: 1
   //   font-size: 2rem
   //   line-height: 1.5
-    
+
   // .year
   //   color: #333
   //   font-size: 2rem
@@ -386,16 +390,16 @@ export default {
   //   color: black
   //   display: inline-block
   //   padding: 0px 10px
-  
+
   // .yearlist
   //   list-style: none
   //   padding: 20px 0px
   //   &>li
   //     margin-bottom: 50px
   //     padding: 20px 20px
-  //     // border-left: solid 2px 
-      
-      
+  //     // border-left: solid 2px
+
+
   //   h4
   //     margin: 0
   //     margin-top: 30px
@@ -403,7 +407,7 @@ export default {
   //     font-weight: bold
   //   h5
   //     margin-top: 15px
-      
-      
+
+
 
 </style>
