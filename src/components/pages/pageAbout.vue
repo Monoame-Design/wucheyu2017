@@ -49,8 +49,7 @@ import showdown from 'showdown'
 import p5 from 'p5'
 
 // https://hackmd.io/iqCoVGVATm-xEloPigNyUw
-let pData = `
-# Che-Yu Wu 吳哲宇
+let pData = `# Che-Yu Wu 吳哲宇
 
 New Media Artist / Senior Product Manager at Outernets / Founder of Monoame Design / Interaction Engineer / Graphic Designer / Musician / Lecturer / Tech Youtuber
 
@@ -58,11 +57,19 @@ New Media Artist / Senior Product Manager at Outernets / Founder of Monoame Desi
 
 ## Bio
 
-Che-Yu Wu is the founder of [Monoame Design](https://monoame.com/), **New media artist, designer, engineer, speaker, and entrepreneur** who enjoys quirky and unique things. By combining the rationality of his electrical engineering background in [National Yang Ming Chiao Tung University](https://www.nycu.edu.tw/) with the sentimentality of visual design, he draws inspirations from **nature, physics, modern art, mathematical rhythm, and music** to create compounding algorithmic works, explore the border between art and engineering, and establish unparalleled interactive experiences.
+Che-Yu Wu is a **New media artist, designer, engineer, speaker, and entrepreneur** who enjoys quirky and unique things. By combining the rationality of his electrical engineering background in [National Yang Ming Chiao Tung University](https://www.nycu.edu.tw/) with the sentimentality of visual design, he draws inspirations from **nature, physics, modern art, mathematical rhythm, and music** to create compounding algorithmic works, explore the border between art and engineering, and establish unparalleled interactive experiences.
 
-Che-Yu founded [Monoame Design](https://monoame.com/) 8 years ago and worked with clients like [Department of Rapid Transit Systems](https://en.wikipedia.org/wiki/Department_of_Rapid_Transit_Systems,_Taipei_City_Government), [Nissan](https://www.nissanusa.com/), [National Palace Museum](https://www.npm.gov.tw/?l=2) and [Industrial Technology Research Institute](https://www.itri.org.tw/english/), [Taipei Computer Association](https://www.tca.org.tw/en/), [Taipei City Government ](https://english.gov.taipei/), [National Center for High‑Performance Computing](https://www.nchc.org.tw/?langid=2), [RemyMartin & Selinko](https://selinko.com/press/remy-martin-club-connected-bottle/) ... to provide dynamic experience applications and solutions.
+Che-Yu is the founder of [Monoame Design](https://monoame.com/) 8 years ago and worked with clients like [Department of Rapid Transit Systems](https://en.wikipedia.org/wiki/Department_of_Rapid_Transit_Systems,_Taipei_City_Government), [Nissan](https://www.nissanusa.com/), [National Palace Museum](https://www.npm.gov.tw/?l=2) and [Industrial Technology Research Institute](https://www.itri.org.tw/english/), [Taipei Computer Association](https://www.tca.org.tw/en/), [Taipei City Government ](https://english.gov.taipei/), [National Center for High‑Performance Computing](https://www.nchc.org.tw/?langid=2), [RemyMartin & Selinko](https://selinko.com/press/remy-martin-club-connected-bottle/) ... to provide dynamic experience applications and solutions.
 
 In recent years after graduating from [**New York University, Integrated Digital Media MS**](http://idm.engineering.nyu.edu/), he devoted himself to advocating for and introducing over ten thousands students to **creative coding and new media art** through his Hahow online courses on animated website development and creative coding for interactive experience design.
+
+## NFT Projects
+- **Original creator of Seahams** on [ArtBlocks](https://artblocks.io/), floor price 8ETH($30k)
+- [**Creator of CryptoPochi**](https://opensea.io/collection/cryptopochi) (Interactive NFT), floor price 1ETH($30k)
+- [**Algorithm Arts on Foundation**](https://foundation.app/@cheyuwu) , 15 works, avg price 4ETH($12k)
+- [**Generative Art NFT License**](https://opensea.io/collection/che-yu-wu-generative-art) on Opensea, 21 items, floor price 14ETH($60k)
+- **Electriz** - Upcoming Artblocks Project
+
 
 ## Research Interest
 - Generative Art (Creative Coding)
@@ -72,11 +79,12 @@ In recent years after graduating from [**New York University, Integrated Digital
 - Digital Visual and branding strategies for companies
 
 ## Profile
+[Linktree](https://linktr.ee/cheyuwu)
 [Facebook](https://www.facebook.com/cheyuwu345/) ,[Twitter](https://twitter.com/cheyuwu345), [Instagram](https://www.instagram.com/cheyuwu345/), [Instagram (Generative Artworks)](https://www.instagram.com/cheyuwu345/), [Linkedin](https://www.linkedin.com/in/cheyuwu/?locale=en_US), [Youtube](https://www.youtube.com/channel/UCHX_XMhPrtvOmgGOnA2eTmA), [Portfolio](https://cheyuwu.com/), [Online Course](https://hahow.in/@majer?tr=majer), [Github](https://github.com/frank890417), [Codepen](https://codepen.io/frank890417), [Open Processing](https://openprocessing.org/user/139364/)
 
 ## Contact
 * Main Email: cyw345@nyu.edu
-* Web Project inquries: info@monoame.com
+* Web Project inquries: contact@monoame.com
 
 
 ## Work Experience
@@ -134,8 +142,7 @@ In recent years after graduating from [**New York University, Integrated Digital
     NISSAN teamed up with Warner Music to create "the first domestic cranial orgasm sensory singer", which shocked the pop music circle
 * [RemyMartin & Selinko UI/UX Design & 3D modeling](https://monoame.com/works/5)/ **[Monoame Design](https://monoame.com/)**
 
-## Teaching
-![](https://i.imgur.com/CI0fE9u.png)
+## Teaching (Online Courses)
 
 Online Course at [Hahow](https://hahow.in/)(Taiwan's biggest online academy)
 
@@ -160,12 +167,11 @@ Developer Youtube Channel [Boss, Coding Please](https://www.youtube.com/channel/
 
 
 ## Speakership
-![](https://i.imgur.com/vkmXPWN.jpg)
-- Introduction to New Media, Technology and Program Art Creation / National High School Teachers in Taiwan New Media Art Teacher Seminar / Online / 2021
-- Application of Javascript in generative & Algorithm art and NFT (upcoming) / **[JavaScript Developer Conference](https://2021.jsdc.tw/aboutus)** / Online / 2021
-- Introduction to New Media Art, Technology and Generative Algorithms (upcoming) / **[Cultural Creativity and Multimedia Alliance Center, National Tsing Hua University](https://uc.itsa.org.tw/multimedia/news.php)** / Hsinchu, Taiwan / 2021
-- p5.js Creative Coding for Interactive Art 101 (upcoming) / [**Taiwan Contemporary Culture Lab (C-LAB)**](https://clab.org.tw/en/) / Taipei, Taiwan
-- The Interaction of generative music / [**Live Code NYC**](https://livecode.nyc/) / New York
+- Introduction to New Media, Technology and Program Art Creation / [**Fine Arts Education Resource Center, Ministry Of Education 台灣教育部美術學科中心**](https://ghresource.mt.ntnu.edu.tw/nss/s/main/p/FineArts) Seminar / Online / 2021
+- Application of Javascript in generative & Algorithm art and NFT / **[JavaScript Developer Conference](https://2021.jsdc.tw/aboutus)** / Online / 2021
+- Introduction to New Media Art, Technology and Generative Algorithms / **[Cultural Creativity and Multimedia Alliance Center, National Tsing Hua University](https://uc.itsa.org.tw/multimedia/news.php)** / Hsinchu, Taiwan / 2021
+- p5.js Creative Coding for Interactive Art 101 / [**Taiwan Contemporary Culture Lab (C-LAB)**](https://clab.org.tw/en/) / Taipei, Taiwan
+- The Interaction of generative music / [**Live Code NYC**](https://livecode.nyc/) / New York / 2019
 - [Creative Coding and Generative Art Seminar](https://www.youtube.com/watch?v=a0mhixudWE4) / [**Instutute of Inforamtion Systems and Applications, National Tsing Hua University** ](https://isa.site.nthu.edu.tw/p/406-1182-187768,r2619.php?Lang=zh-tw) / Hsinchu, Taiwan
 - [Making interactive robots with p5.js & Creative coding](https://www.youtube.com/watch?v=oPDW3huKK-Y) / **Hahow 好學校** / Taipei, Taiwan
 - [Making Interactive website with Vue, GSAP and d3.js and the strategy to intergrate the frameworks](https://www.youtube.com/watch?v=XLZ3lahTOWU) / [**MOPCON 2017**](https://mopcon.org/2017/?&lang=en) / Kaohsiung, Taiwan
