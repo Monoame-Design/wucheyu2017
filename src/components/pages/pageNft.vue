@@ -1,9 +1,9 @@
 <template lang="pug">
-  .page-art.pb-5
+  .page-nft.pb-5
     section.container.text-left.section-header
       .row.pt-5
         .col-12
-          h1 Project Electriz 
+          h1.mt-2 Project Electriz 
       .row
         .col-md-12
           pre Art Blocks Project #216 by Che-Yu Wu
@@ -103,7 +103,7 @@ export default {
 
 <style lang="sass">
 
-.page-art
+.page-nft
   background-color: black
   color: white
   margin-top: -15px
@@ -113,6 +113,12 @@ export default {
     font-size: 3rem
   img+p,img+ul
     margin-top: 30px
+  img
+    width: 100%
+    height: auto
+    box-shadow: 0px 20px 20px -10px rgba(black,0.1)
+    border-radius: 8px
+    overflow: hidden
   .section-header 
     button
       border: solid 1px white
