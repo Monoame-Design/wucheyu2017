@@ -4,17 +4,18 @@
       .row
         .col-sm-12
           nav(v-if="!$route.path.includes('manage') && !$route.path.includes('/project/')",
-              
               )
             //- router-link(to="/" :class="{active: $route.path=='/'}") Index
             //- router-link(to="/about" :class="{active: $route.path=='/about'}") About
             router-link(to="/")
-              h2 CHE-YU WU
+              h2.d-none.d-md-block CHE-YU WU
+              h2.d-md-none CYW
             div.subroute(:class="{white: $route.path=='/about'}")
               router-link(to="/" :class="{active: $route.path=='/'}") Work
               router-link(to="/about" :class="{active: $route.path=='/about'}") About
               //router-link(to="/experiment" :class="{active: $route.path=='/experiment'}") Experiments
               router-link(to="/arts" :class="{active: $route.path=='/arts'}") Art
+              router-link(to="/nft" :class="{active: $route.path=='/nft'}") NFT
               router-link(to="/thesis" :class="{active: $route.path=='/thesis'}") Thesis
               //- router-link(to="/research" :class="{active: $route.path=='/research'}") Research
               //- a(href="/static/Che-Yu Wu Resume.pdf" target="blank" :class="{active: $route.path=='/resume'}") Resume

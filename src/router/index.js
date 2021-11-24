@@ -9,6 +9,7 @@ import pageProject from '@/components/pages/pageProject'
 import pageProjectEdit from '@/components/pages/pageProjectEdit'
 import pageThesis from '@/components/pages/pageThesis'
 import pageArts from '@/components/pages/pageArts'
+import pageNft from '@/components/pages/pageNft'
 
 Vue.use(Router)
 
@@ -23,6 +24,10 @@ export default new Router({
       path: '/about',
       name: 'about',
       component: pageAbout
+    }, {
+      path: '/nft',
+      name: 'nft',
+      component: pageNft
     }, 
     {
       path: '/research',
