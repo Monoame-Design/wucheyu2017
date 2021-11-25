@@ -15,7 +15,7 @@
               a(href="https://www.instagram.com/bosscodingplease/" target="_blank" title="Instagram").mr-5
                 i.fab.fa-instagram 
                 span  bosscodingplease
-              a(href="https://twitter.com/Majer666666" target="_blank" title="Instagram")
+              a(href="https://twitter.com/cheyuwu345" target="_blank" title="Instagram")
                 i.fab.fa-twitter 
                 span  Twitter
               a(href="https://foundation.app/@cheyuwu" target="_blank" title="Instagram") 
