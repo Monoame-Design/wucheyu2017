@@ -33,18 +33,18 @@
           h2 Project Concept
           p In physics, scientists collect debris through colliders hitting particles at high speeds, trying to find the smallest unit in the world, but such a small particle cannot be seen with the naked eye. How to detect it?
             br 
-            | Traditionally, we use cloud chambers to make tiny particles leave tracks. When they pass through the foggy space, they will leave traces to symbolize their existence. If we want to judge the physical properties of the particles-mass, size With the strength of the electric charge, it can apply an electric or magnetic field to the space. When the charged particles penetrate the electromagnetic field, they will be affected by the Lauren force and will be affected by the force perpendicular to the direction of motion, resulting in a vortex-like trajectory, leaving a picture The shape of a digital fern is similar, and its exact physical properties can be known by judging the mass of the particle and the radius of the trajectory.
+            | Traditionally, we use cloud chambers to make tiny particles leave tracks. When they pass through the foggy space, they will leave traces to symbolize their existence. If we want to judge the physical properties of the particles-mass, size with the strength of the electric charge, it can apply an electric or magnetic field to space. When the charged particles penetrate the electromagnetic field, they will be affected by the Lauren force and will be affected by the force perpendicular to the direction of motion, resulting in a vortex-like trajectory, leaving a picture the shape of a digital fern is similar, and its exact physical properties can be known by judging the mass of the particle and the radius of the trajectory.
 
       .row.py-4
         .col-lg-6
           h2 Cloud chamber
-          p When doing art creation, just like scientists discovering new particles, artists are constantly drawing interesting ideas from reality and fantasy to collide with each other, trying to find a unique existence at the moment of collision, and in the process of fusion of ideas. Each thought in the book will shape the core creative concept through a series of brushstrokes, different experimental works, color blends, and trajectories. Art is the same as physics. Through continuous proof of concept (Prototyping), we find the most The real appearance, each artist is like a parallel universe with independent laws of physics, searching for the root through creation, searching for the self who has experienced countless differences and accumulations after being born in this world, and then interpreting the artist's own imagination through observable works And perspectives.
+          p When doing art creation, just like scientists discovering new particles, artists are constantly drawing interesting ideas from reality and fantasy to collide with each other, trying to find a unique existence at the moment of collision, and in the process of fusion of ideas. Each thought in the book will shape the core creative concept through a series of brushstrokes, different experimental works, color blends, and trajectories. Art is the same as physics. Through continuous proof of concept (Prototyping), we find the most the real appearance, each artist is like a parallel universe with independent laws of physics, searching for the root through creation, searching for the self who has experienced countless differences and accumulations after being born in this world, and then interpreting the artist's own imagination through observable works and perspectives.
         .col-lg-6
           img.w-100(src="/static/img/nft_exp_1.png")
       .row.py-4
         .col-12
           h2 Space division and particle movement.
-          p Use right-angle dividing lines and angle divisions to create different worlds. In each world, there are different laws of physics: electric field, noise, positive and negative rotation particle charge or grid force, in the particles When crossing the boundary of space, there is a certain probability that new particles will be split out. When entering the space, it will be affected by the divided space and draw different trajectories. Each space also has its own gravitational acceleration and electromagnetic field, which can produce similar external particles. Star totem braided shape.
+          p Use right-angle dividing lines and angle divisions to create different worlds. In each world, there are different laws of physics: electric field, noise, positive and negative rotation particle charge, or grid force, in the particles when crossing the boundary of space, there is a certain probability that new particles will be split out. When entering the space, it will be affected by the divided space and draw different trajectories. Each space also has its own gravitational acceleration and electromagnetic field, which can produce similar external particles. Star totem braided shape.
         
         .col-12
           h3 Space Division
@@ -52,9 +52,9 @@
           img.w-100(src="/static/img/nft_exp_3.png")
           ul 
             li Field → Electromagnetic field, the force is determined by sin and cos according to the current position, which will produce a trajectory like a vine or a winding picture
-            li Noise → Perlin Noise Bolling noise, will randomly determine the direction of force and movement according to the noise distribution
+            li Noise → Perlin Noise, will randomly determine the direction of force and movement according to the noise distribution
             li Curl → According to the magnitude/mass and polarity of the charge, a vortex-like trajectory will be produced.
-            li Step → Bring the grid coordinates of the discretized particles into the cos to calculate the force, and generate a dynamic extending along the separation line and the diagonal line.
+            li Step → Bring the grid coordinates of the discretized particles into the cos to calculate the force and generate a dynamic extending along the separation line and the diagonal line.
 
 
       .row.py-4
