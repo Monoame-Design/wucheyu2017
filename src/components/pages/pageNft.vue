@@ -35,9 +35,9 @@
             li Save Image: S
             li Show Hash: Spacebar
         .col-12.col-lg-3
-          a(href="https://www.artblocks.io/project/216" target="_blank").d-none.d-md-block
+          a(href="https://www.artblocks.io/project/216" target="_blank").d-md-block
             button.btn Project Link
-          a(href="/static/artblocks_cheyu.ics" target="_blank").d-none.d-md-block.mt-3
+          a(href="/static/artblocks_cheyu.ics" target="_blank").d-md-block.mt-3
             button.btn 
               i.far.fa-bell(style="color: white")
               | &nbsp;Set Reminder
@@ -141,6 +141,10 @@ export default {
     iframe
       border: none
       max-width: 600px
+  .btn
+    @media only screen and (max-width: 768px)
+      width: 100%
+      margin-top: 15px
   h1
     font-size: 6rem
     font-family: 'Rokkitt', serif
