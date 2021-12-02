@@ -35,6 +35,10 @@
         .col-lg-3
           a(href="https://www.artblocks.io/project/216" target="_blank").d-none.d-md-block
             button.btn Project Link
+          a(href="/static/artblocks_cheyu.ics" target="_blank").d-none.d-md-block.mt-3
+            button.btn 
+              i.far.fa-bell(style="color: white")
+              | &nbsp;Set Reminder
     .container-fluid.text-left.pb-5
       img.w-100(src="/static/img/nft_cover.png")
     .container.text-left
