@@ -12,13 +12,15 @@
         .col-md-12
           .d-flex.justify-content-start.align-items-center.mb-2
             img(src="https://artblocks.io/_next/image?url=%2Fsquig.png&w=48&q=75", style="width: 48px")
-            pre.ml-3.mt-3 Art Blocks Project #216 by Che-Yu Wu
+            pre.ml-3.mt-3 Art Blocks Project #216
+              br.d-block.d-lg-hidden
+              | by Che-Yu Wu
       .row
         .col-lg-12
           p "Electriz" is a series of works that use digital cloud chambers to observe the traces of unidentified particles. When doing art creation, just like scientists discovering new particles, artists continue to draw interesting ideas from reality and fantasy to collide with each other, trying to find a unique existence at the moment of collision in the process of mixing ideas. The space in the work "Electriz" is divided into parts with different physical characteristics, which affect the movement, rotation, splitting, and annihilation of particles. It is an unpredictable experimental system with unlimited possibilities to explore the intersection of physics, mathematics, and art.
           hr
       .row.my-4
-        .col-lg-5
+        .col-12.col-lg-5
           h3 Artist
           ul
             li Project Artist: Che-Yu Wu
@@ -26,13 +28,13 @@
             li Start Date/Time: December 7, 11am CT
             li Drop Mechanic: Dutch auction (3Ξ to 0.1Ξ)
 
-        .col-lg-4
+        .col-12.col-lg-4
           h3 Functionalities
           ul
             li Toggle Texture: T
             li Save Image: S
             li Show Hash: Spacebar
-        .col-lg-3
+        .col-12.col-lg-3
           a(href="https://www.artblocks.io/project/216" target="_blank").d-none.d-md-block
             button.btn Project Link
           a(href="/static/artblocks_cheyu.ics" target="_blank").d-none.d-md-block.mt-3
@@ -126,6 +128,8 @@ export default {
   margin-top: -15px
   font-family: 'Rokkitt', serif
   font-size: 1.2rem
+  overflow: hidden
+  width: 100%
   hr
     margin-top: 30px
     border-bottom: solid 1px white
