@@ -16,7 +16,7 @@
               //router-link(to="/experiment" :class="{active: $route.path=='/experiment'}") Experiments
               router-link(to="/arts" :class="{active: $route.path=='/arts'}") Art
               router-link(to="/nft" :class="{active: $route.path=='/nft'}") NFT
-              router-link(to="/thesis" :class="{active: $route.path=='/thesis'}").d-none.d-md-block Thesis
+              router-link(to="/thesis" :class="{active: $route.path=='/thesis'}").d-none.d-md-inline-block Thesis
               //- router-link(to="/research" :class="{active: $route.path=='/research'}") Research
               //- a(href="/static/Che-Yu Wu Resume.pdf" target="blank" :class="{active: $route.path=='/resume'}") Resume
     transition(name="page" , mode="out-in")
