@@ -3,26 +3,36 @@
     section.container.text-left.section-header
       .row.pt-5
         .col-12
-          h1.mt-2 Project Electriz 
+          .demo-container
+            ElectrizDemo
+      .row.pt-5
+        .col-12
+          h1 Project Electriz 
       .row
         .col-md-12
-          pre Art Blocks Project #216 by Che-Yu Wu
+          .d-flex.justify-content-start.align-items-center.mb-2
+            img(src="https://artblocks.io/_next/image?url=%2Fsquig.png&w=48&q=75", style="width: 48px")
+            pre.ml-3.mt-3 Art Blocks Project #216 by Che-Yu Wu
       .row
         .col-lg-12
           p "Electriz" is a series of works that use digital cloud chambers to observe the traces of unidentified particles. When doing art creation, just like scientists discovering new particles, artists continue to draw interesting ideas from reality and fantasy to collide with each other, trying to find a unique existence at the moment of collision in the process of mixing ideas. The space in the work "Electriz" is divided into parts with different physical characteristics, which affect the movement, rotation, splitting, and annihilation of particles. It is an unpredictable experimental system with unlimited possibilities to explore the intersection of physics, mathematics, and art.
+          hr
       .row.my-4
-        .col-lg-4
+        .col-lg-5
           h3 Artist
           ul
             li Project Artist: Che-Yu Wu
-            li Est Launch Size: 910
+            li Launch Size: 910
+            li Start Date/Time: December 7, 11am CT
+            li Drop Mechanic: Dutch auction (3Ξ to 0.1Ξ)
+
         .col-lg-4
           h3 Functionalities
           ul
             li Toggle Texture: T
             li Save Image: S
             li Show Hash: Spacebar
-        .col-lg-4
+        .col-lg-3
           a(href="https://www.artblocks.io/project/216" target="_blank").d-none.d-md-block
             button.btn Project Link
     .container-fluid.text-left.pb-5
@@ -71,7 +81,7 @@
       .row.mt-5
         .col-12
           h1 Renders
-    .container-fluid
+    .container-fluid.mb-5
       .row
         .col-lg-6.mt-3
           img.w-100(src="/static/img/nft_render_1.png")
@@ -96,19 +106,38 @@
 </template>
 
 <script>
+import ElectrizDemo from "@/components/ElectrizDemo"
 export default {
-
+  components: {
+    ElectrizDemo
+  }
 }
 </script>
 
 <style lang="sass">
-
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .page-nft
   background-color: black
   color: white
   margin-top: -15px
+  font-family: 'Rokkitt', serif
+  font-size: 1.2rem
+  hr
+    margin-top: 30px
+    border-bottom: solid 1px white
+  .demo-container
+    display: flex
+    justify-content: center
+    align-items: center
+    
+    iframe
+      border: none
+      max-width: 600px
   h1
-    font-size: 5rem
+    font-size: 6rem
+    font-family: 'Rokkitt', serif
+    @media only screen and (max-width: 768px)
+      font-size: 5rem
   h2
     font-size: 3rem
   img+p,img+ul
