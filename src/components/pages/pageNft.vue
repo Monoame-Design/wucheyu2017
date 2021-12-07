@@ -7,9 +7,10 @@
             ElectrizDemo
       .row.pt-5
         .col-12
-          h1 Project Electriz 
+          h1 
+            a(href="https://www.artblocks.io/project/216" target="_blank") Project Electriz 
       .row
-        .col-md-12
+        a(href="https://www.artblocks.io/project/216" target="_blank").col-md-12
           .d-flex.justify-content-start.align-items-center.mb-2
             img(src="https://artblocks.io/_next/image?url=%2Fsquig.png&w=48&q=75", style="width: 48px")
             pre.ml-3.mt-3 Art Blocks Project #216
@@ -130,6 +131,9 @@ export default {
   font-size: 1.2rem
   overflow: hidden
   width: 100%
+  a
+    color: white
+  h1 a
   hr
     margin-top: 30px
     border-bottom: solid 1px white
