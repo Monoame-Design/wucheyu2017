@@ -10,7 +10,7 @@
         img.w-100(src="https://i.imgur.com/fYCLCmn.jpg =300x300")
       .col-lg-7
         h1.mt-2 Che-Yu Wu 吳哲宇
-        h5 New Media Artist / Founder of Monoame Design / Interaction Engineer / Graphic Designer / Musician / Lecturer / Tech Youtuber
+        h5 New Media Artist / Founder of Monoame Design
         p(
           v-html="mdToHtml(`Che-Yu Wu is a new media artist dedicated to intergrade art and computer science. After acquiring a master's degree in Integrated Digital Media from New York University, he led a development team of interactive design in an A.I. company. His VR/AR and creative coding skills allow him to build an immersive audio-visual experience. The artist's generative artworks have been shown worldwide and have influenced many [creators](https://blog.floors.cafe/why-hams/) over [Art Blocks](https://www.artblocks.io/project/216) and [Foundation](https://foundation.app/@cheyuwu).`)"
         )
