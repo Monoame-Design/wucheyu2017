@@ -7,7 +7,7 @@
   .container.mt-5
     .row.py-5
       .col-lg-5
-        img.w-100(src="https://i.imgur.com/fYCLCmn.jpg =300x300")
+        img.w-100(src="/static/img/about_photo.jpg")
       .col-lg-7
         h1.mt-2 Che-Yu Wu 吳哲宇
         h5 New Media Artist / Founder of Monoame Design
@@ -17,7 +17,7 @@
         p(
           v-html="mdToHtml(`Wu's online courses on creative coding and new media art have inspired tens of thousands of students in Asia. Currently based in New York City, Wu is the founder of Monoame Design and has worked with [Taipei City Government](https://english.gov.taipei/), [National Palace Museum](https://www.npm.gov.tw/?l=2), [Nissan](https://www.nissanusa.com/), and [White Castle](https://www.whitecastle.com/), to name a few.`)"
         )
-  .container.pt-5.content(v-html="htmlContent")
+  .container.pt-4.content(v-html="htmlContent")
     //- .row
     //-   .col-sm-12
     //- .row.row-info.mt-5
