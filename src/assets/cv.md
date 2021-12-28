@@ -1,4 +1,3 @@
-
 ## Bio
 
 Che-Yu Wu is a **New media artist, designer, engineer, speaker, and entrepreneur** who enjoys quirky and unique things. By combining the rationality of his electrical engineering background in [National Yang Ming Chiao Tung University](https://www.nycu.edu.tw/) with the sentimentality of visual design, he draws inspirations from **nature, physics, modern art, mathematical rhythm, and music** to create compounding algorithmic works, explore the border between art and engineering, and establish unparalleled interactive experiences. 
@@ -90,9 +89,9 @@ In recent years after graduating from [**New York University, Integrated Digital
 
 Online Course at [Hahow](https://hahow.in/)(Taiwan's biggest online academy)
 
-- [Dynamic Interactive website Introduction HTML/CSS/JS 動態互動網頁程式入門](https://hahow.in/cr/monoame-webdesign1) at Hahow (9829 students, NT $2,000) 
-- [Dynamic advanced WebFX introduction (JS/CANVAS/GSAP) 動態互動網頁特效入門](https://hahow.in/cr/monoame-webdesign2) at Hahow (4594 students, NT $2,500)
-- [Generative Art & p5.js introduction (Creatie Coding) 互動藝術程式創作入門](https://hahow.in/cr/creative-coding-1) (2150 students, NT $2,400) 
+- [Dynamic Interactive website Introduction HTML/CSS/JS 動態互動網頁程式入門](https://hahow.in/cr/monoame-webdesign1) at Hahow (10244 students, NT $2,000) 
+- [Dynamic advanced WebFX introduction (JS/CANVAS/GSAP) 動態互動網頁特效入門](https://hahow.in/cr/monoame-webdesign2) at Hahow (4749 students, NT $2,500)
+- [Generative Art & p5.js introduction (Creatie Coding) 互動藝術程式創作入門](https://hahow.in/cr/creative-coding-1) (2348 students, NT $2,400) 
 
 ## Tutorials 
 Developer Youtube Channel [Boss, Coding Please](https://www.youtube.com/channel/UCHX_XMhPrtvOmgGOnA2eTmA) (6200 followers) 
@@ -146,17 +145,19 @@ Developer Youtube Channel [Boss, Coding Please](https://www.youtube.com/channel/
 ![](https://i.imgur.com/UTTpQ5T.jpg)
 
 * 2019/03 /  [Listening Machine Exhibition - Taipei Artist Village](https://www.youtube.com/watch?v=zxO_XCBJuWQ&feature=emb_title)
-* 2021/07 / [PARAÌSO](https://www.madsgallery.art/item/6c595765-f20b-44a8-a22b-30dcf7e13ba4/artist/che---yu-wu) International Contemporary Art exhibition
+* 2021/07 / [PARAÌSO](https://www.madsgallery.art/item/6c595765-f20b-44a8-a22b-30dcf7e13ba4/artist/che-yu-wu) International Contemporary Art exhibition / M.A.D.S. Gallery
 * 2021/11 / [NEALDIGITAL Gallery](https://www.nealgallery.com/)  #NFT ART WEEK SHENZHEN(深圳)
-
+* 2021/12 / [SACRIFICE](https://www.madsgallery.art/item/6c595765-f20b-44a8-a22b-30dcf7e13ba4/artist/che-yu-wu) International Contemporary Art exhibition / M.A.D.S. Gallery
 
 ## Media Exposure
 ![](https://i.imgur.com/Nz5RAHE.jpg)
 
 * NFT
+    * White Castle joins NFT art trend, releases its own collection / [Fox Business](https://www.foxbusiness.com/lifestyle/white-castle-introduces-nft-art-collection)
     * White Castle Announces NFT Collabration with Doodle Labs & Media Artist, Che-Yu Wu / [YAHOO Finance](https://www.yahoo.com/now/white-castle-announces-nft-collaboration-194600638.html) , [CStoreDecisions](https://cstoredecisions.com/2021/12/17/white-castle-debuts-sliderverse-generative-art-nft-collection/) , [Mashed](https://www.mashed.com/711987/white-castle-just-jumped-on-the-nft-bandwagon/) , [Food Market](https://www.foodmarket.com/News/A/1214787/White-Castle-Announces-NFT-Collaboration-with-Doodle-Labs--Media-Artist-Che-Yu-Wu), [QSRWeb](https://www.qsrweb.com/news/white-castle-to-release-nfts/), [PRNewswire](https://www.prnewswire.com/news-releases/white-castle-announces-nft-collaboration-with-doodle-labs--media-artist-che-yu-wu-301446920.html)
-    * [NFT temple, meme Seaham plagiarism and the godfather of ham - Che-Yu Wu](https://matters.news/@mashbean/nft%E6%95%85%E4%BA%8B%E9%9B%86-%E7%94%A8%E7%A8%8B%E5%BC%8F%E7%A2%BC%E7%95%AB%E7%95%AB%E8%B3%A3%E5%87%BA%E4%B8%80%E5%84%84%E5%85%83%E7%9A%84%E5%8F%B0%E7%81%A3%E4%BA%BA-bafyreih7r2vapq66m2pp2qqpqy7pj3zn2i3imk7i6wx2kvd3peavhckjee)
     * Why Hams? https://blog.floors.cafe/why-hams/
+    * 闖進紐約的台灣之光，憑NFT實現財富自由的26歲無名小卒 / [遠見雜誌](https://www.gvm.com.tw/article/85552), [Yahoo 奇摩新聞](https://tw.news.yahoo.com/%E7%8D%A8%E5%AE%B6-%E9%97%96%E9%80%B2%E7%B4%90%E7%B4%84%E7%9A%84%E5%8F%B0%E7%81%A3%E4%B9%8B%E5%85%89-%E6%86%91nft%E5%AF%A6%E7%8F%BE%E8%B2%A1%E5%AF%8C%E8%87%AA%E7%94%B1%E7%9A%8426%E6%AD%B2%E7%84%A1%E5%90%8D%E5%B0%8F%E5%8D%92-110300616.html)
+    * [NFT故事集：用程式碼畫畫賣出一億元的台灣人 - Che-Yu Wu](https://matters.news/@mashbean/nft%E6%95%85%E4%BA%8B%E9%9B%86-%E7%94%A8%E7%A8%8B%E5%BC%8F%E7%A2%BC%E7%95%AB%E7%95%AB%E8%B3%A3%E5%87%BA%E4%B8%80%E5%84%84%E5%85%83%E7%9A%84%E5%8F%B0%E7%81%A3%E4%BA%BA-bafyreih7r2vapq66m2pp2qqpqy7pj3zn2i3imk7i6wx2kvd3peavhckjee)
 
 * Online Courses
     * [用 50 個小時，與 4,300 位同學一起「自己動畫互動網頁自己做」/ Crowd Watch](http://crowdwatch.tw/post/2735/?fbclid=IwAR2M0U_m0vXuHVrSixxmNcdA58TgeXUV1uf6tskwa8s5Hfila5Ppnq9sN6Y)
