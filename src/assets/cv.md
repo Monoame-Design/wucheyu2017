@@ -13,6 +13,8 @@ In recent years after graduating from [**New York University, Integrated Digital
 - [**Project Electriz**](https://www.artblocks.io/project/216) on Artblocks https://cheyuwu.com/nft 
 - [**Generative Art NFT License**](https://opensea.io/collection/che-yu-wu-generative-art) on Opensea
 - [**Che-Yu Wu x White Castle SliderVerse**](https://sliderverse.doodlelabs.io/) - interactive style with White Castle’s legendary sliders to explore the intersection between food, art, tech and culture.
+- [**SoulSea (300 mints) on FxHash**](https://www.fxhash.xyz/generative/5438) Feel the soul of the digital ocean.
+
 
 
 ## Research Interest
