@@ -12,7 +12,7 @@
         h1.mt-2 Che-Yu Wu 吳哲宇
         h5 New Media Artist / Founder of Monoame Design
         p(
-          v-html="mdToHtml(`Che-Yu Wu is a new media artist dedicated to intergrade art and computer science. After acquiring a master's degree in Integrated Digital Media from New York University, he led a development team of interactive design in an A.I. company. His VR/AR and creative coding skills allow him to build an immersive audio-visual experience. The artist's generative artworks have been shown worldwide and have influenced many [creators](https://blog.floors.cafe/why-hams/) over [Art Blocks](https://www.artblocks.io/project/216) and [Foundation](https://foundation.app/@cheyuwu).`)"
+          v-html="mdToHtml(`Che-Yu Wu is a new media artist dedicated to intergrade art and computer science. After acquiring a master's degree in Integrated Digital Media from New York University, he led a development team of interactive design in an A.I. company. His VR/AR and creative coding skills allow him to build an immersive audio-visual experience. The artist's generative artworks have been shown worldwide and have influenced many creators over [Art Blocks](https://www.artblocks.io/project/216) and [Foundation](https://foundation.app/@cheyuwu).`)"
         )
         p(
           v-html="mdToHtml(`Wu's online courses on creative coding and new media art have inspired tens of thousands of students in Asia. Currently based in New York City, Wu is the founder of Monoame Design and has worked with [Taipei City Government](https://english.gov.taipei/), [National Palace Museum](https://www.npm.gov.tw/?l=2), [Nissan](https://www.nissanusa.com/), and [White Castle](https://www.whitecastle.com/), to name a few.`)"
