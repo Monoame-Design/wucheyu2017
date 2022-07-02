@@ -2,7 +2,7 @@
 .page-nft-all.text-left
   .container.pt-5.pb-5(v-if="!workName")
     router-link.row.py-3.nft-item(to="/nft/soulfish")
-      .col-5
+      .col-md-5
         iframe.w-100(
           src="https://gateway.fxhash2.xyz/ipfs/QmWYvkFHPLBkmv1CSCK5vpm3MSBggbALDqRZQXitzPPLJn/?fxhash=oodGicCkjQy2pe9gZLrDXhTnYHP4hfsKY1QizPyuRdmVNzvUEzu",
           style="width: 100%; aspect-ratio: 1; border: none"
@@ -12,7 +12,7 @@
         //-   src="https://gateway.fxhash2.xyz/ipfs/QmSjD9c2S8tN4f8QpJSRtxHhkKRtpiA8LmEoNRWAdxANW7",
         //-   alt=""
         //- )
-      .col-7
+      .col-md-7
         h2 SoulFish
         h3 
         h5 fxhash, June 2nd 2022, 1000 editions

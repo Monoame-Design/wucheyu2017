@@ -6,7 +6,7 @@
         //- .demo-container
         iframe.w-100(
           src="https://gateway.fxhash2.xyz/ipfs/QmWYvkFHPLBkmv1CSCK5vpm3MSBggbALDqRZQXitzPPLJn/?fxhash=oodGicCkjQy2pe9gZLrDXhTnYHP4hfsKY1QizPyuRdmVNzvUEzu",
-          style="width: 100%; aspect-ratio: 1; border: none; margin-bottom: -40vh; margin-top: -20vh"
+          style="width: 100%; min-height: 500px; max-height: 1000px; aspect-ratio: 1; border: none; margin-bottom: -20vh; margin-top: -20vh"
         )
     .row.pt-5
       .col-12
@@ -62,7 +62,7 @@
         //-     | &nbsp;Set Reminder
   .container-fluid.pt-5(v-if="soulFishData")
     .row 
-      a.col-2(
+      a.col-lg-2.col-sm-6.col-xs-4(
         v-for="objkt in soulFishData",
         :href="objkt.href",
         target="_blank"
