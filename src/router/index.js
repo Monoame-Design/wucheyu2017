@@ -15,8 +15,7 @@ Vue.use(Router)
 
 export default new Router({
   mode: 'history',
-  routes: [
-    {
+  routes: [{
       path: '/',
       name: 'index',
       component: pageWorks
@@ -28,13 +27,17 @@ export default new Router({
       path: '/nft',
       name: 'nft',
       component: pageNft
-    }, 
+    }, {
+      path: '/nft/:name',
+      name: 'nft',
+      component: pageNft
+    },
     {
       path: '/research',
       name: 'research',
       component: pageResearch
     },
-     {
+    {
       path: '/experiment',
       name: 'experiment',
       component: pageExperiment
@@ -66,7 +69,10 @@ export default new Router({
         if (savedPosition) {
           resolve(savedPosition)
         } else {
-          resolve({ x: 0, y: 0 })
+          resolve({
+            x: 0,
+            y: 0
+          })
         }
       }, 500)
     })

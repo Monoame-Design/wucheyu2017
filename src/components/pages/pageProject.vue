@@ -1,108 +1,115 @@
 <template lang="pug">
-  .page-project
-    .container-fluid
-      .row
+.page-project
+  .container-fluid
+    .row
+      .col-sm-12
+        .cover(:style="cssbg(work.cover)")
+          router-link.btn-back(to="/") 
+            i.fa.fa-angle-left.mr-3
+            span Back to Works
+    .container.content-area
+      .row(v-if="work")
         .col-sm-12
-          .cover(:style="cssbg(work.cover)")
-            router-link.btn-back(to="/") 
-              i.fa.fa-angle-left.mr-3
-              span Back to Works
-      .container.content-area
-        .row(v-if="work")
-          .col-sm-12
-            h1 {{work.title}}
-            
-        .row
-          .col-sm-6.col-content
-            
-            ul.text-left
-              li 
-                label Client
-                span {{work.client}}
-              li 
-                label Date
-                span {{work.date}}
-              li 
-                label Category
-                span {{work.type}}
-              li 
-                label Responsibilities
-                span {{work.work}}
-              li(v-if="work.link")
-                label Link
-                a(:href="work.link", target="_blank") {{work.link}}
-          .col-sm-6.col-content
-            ul.text-left
-              li 
-                label Honors
-                p(v-html="processHTML(work.honor)")
-        .row
-          .col-sm-12.col-content
-            p.text-left(v-html="processHTML(work.content)")
-          //- h3 Project Information
-      .row.row-nav
-        router-link.col-sm-6.col-nav(
-          :to="`/project/${projnav.pre.id}`", 
-          v-if=" projnav.pre.id",
-          :style="cssbg(projnav.pre.work.cover)")
-          h3 {{projnav.pre.work.title}}
-        
-        router-link.col-sm-6.col-nav(
-          :to="`/project/${projnav.nxt.id}`", 
-          v-if="projnav.nxt.id",
-          :style="cssbg(projnav.nxt.work.cover)")
-          h3 {{projnav.nxt.work.title}}
-          
+          h1 {{ work.title }}
+
+      .row
+        .col-sm-6.col-content
+          ul.text-left
+            li 
+              label Client
+              span {{ work.client }}
+            li 
+              label Date
+              span {{ work.date }}
+            li 
+              label Category
+              span {{ work.type }}
+            li 
+              label Responsibilities
+              span {{ work.work }}
+            li(v-if="work.link")
+              label Link
+              a(:href="work.link", target="_blank") {{ work.link }}
+        .col-sm-6.col-content
+          ul.text-left
+            li 
+              label Honors
+              p(v-html="processHTML(work.honor)")
+      .row
+        .col-sm-12.col-content
+          p.text-left(v-html="processHTML(work.content)")
+        //- h3 Project Information
+    .row.row-nav
+      router-link.col-sm-6.col-nav(
+        :to="`/project/${projnav.pre.id}`",
+        v-if="projnav.pre.id",
+        :style="cssbg(projnav.pre.work.cover)"
+      )
+        h3 {{ projnav.pre.work.title }}
+
+      router-link.col-sm-6.col-nav(
+        :to="`/project/${projnav.nxt.id}`",
+        v-if="projnav.nxt.id",
+        :style="cssbg(projnav.nxt.work.cover)"
+      )
+        h3 {{ projnav.nxt.work.title }}
 </template>
 
 <script>
-import { mapState } from 'vuex'
+import { mapState } from "vuex";
 export default {
-  data () {
+  data() {
     return {
-      msg: 'Welcome to Your Vue.js App'
-    }
+      msg: "Welcome to Your Vue.js App",
+    };
   },
-  computed:{
-    ...mapState(['works']),
-    work(){  
-      if (isNaN(this.$route.params.id)){
-        let toComp = (title)=> (title || "").replace(/[\ ]/g,'_').replace(/\//g,'_').replace(/\&/g,'_').toLowerCase()
-        return Object.values(this.works).find(w=>toComp(w.title)==toComp(this.$route.params.id))
-      }else{
-        return this.works[this.$route.params.id]
+  computed: {
+    ...mapState(["works"]),
+    work() {
+      if (isNaN(this.$route.params.id)) {
+        let toComp = (title) =>
+          (title || "")
+            .replace(/[\ ]/g, "_")
+            .replace(/\//g, "_")
+            .replace(/\&/g, "_")
+            .toLowerCase();
+        return Object.values(this.works).find(
+          (w) => toComp(w.title) == toComp(this.$route.params.id)
+        );
+      } else {
+        return this.works[this.$route.params.id];
       }
     },
-    projnav(){
-      let currentId =  Object.keys(this.works).indexOf(this.$route.params.id)
-      let pre =  Object.keys(this.works)[currentId-1]
-      let nxt =  Object.keys(this.works)[currentId+1]
+    projnav() {
+      let currentId = Object.keys(this.works).indexOf(this.$route.params.id);
+      let pre = Object.keys(this.works)[currentId - 1];
+      let nxt = Object.keys(this.works)[currentId + 1];
       return {
         pre: {
           id: pre,
-          work: this.works[pre]
+          work: this.works[pre],
         },
-        nxt:  {
+        nxt: {
           id: nxt,
-          work: this.works[nxt]
-        }
-      }
-    }
+          work: this.works[nxt],
+        },
+      };
+    },
   },
   methods: {
-    processHTML(text){
-      return (text || "").replace(/\n/g,'<br>')
+    processHTML(text) {
+      return (text || "").replace(/\n/g, "<br>");
     },
     cssbg(url) {
-      let use_url = (url && url != '') ? url : '/img/default.jpg'
+      let use_url = url && url != "" ? url : "/img/default.jpg";
       let result = {
-        'background-image': `url("${use_url} ")`
-      }
+        "background-image": `url("${use_url} ")`,
+      };
       // console.log(result)
-      return result
-    }
-  }
-}
+      return result;
+    },
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -116,7 +123,7 @@ export default {
 .page-project
   // padding-bottom: 20vh
   // color: white
-    
+
   .content-area
     padding-top: 50px
   .btn-back
@@ -126,7 +133,7 @@ export default {
     background-color: black
     color: white
     padding: 10px
-  h1, h2 
+  h1, h2
     font-weight: normal
   h1
     font-weight: bold
@@ -138,9 +145,6 @@ export default {
     // margin-top: 10px
   // h2
   //   border-bottom: 4px solid #000
-
-
-
 
   .cover
     height: 60vh
@@ -156,7 +160,6 @@ export default {
     margin-bottom: 30px
     margin-top: -30px
     animation: coveropen 1s
-
 
   .content-area
     img
@@ -198,7 +201,6 @@ export default {
     transition: 0.5s
     text-decoration: none
 
-
   &:hover
     color: white
     &:before
@@ -215,5 +217,4 @@ export default {
     top: 0
     background-color: rgba(black,1)
     opacity: 0
-
 </style>
