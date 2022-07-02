@@ -1,10 +1,7 @@
 <template lang="pug">
 .page-nft-all.text-left
   .container.pt-5.pb-5(v-if="!workName")
-    a.row.py-3.nft-item(
-      href="https://www.fxhash.xyz/generative/slug/soulfish",
-      target="_blank"
-    )
+    router-link.row.py-3.nft-item(to="/nft/soulfish")
       .col-5
         iframe.w-100(
           src="https://gateway.fxhash2.xyz/ipfs/QmWYvkFHPLBkmv1CSCK5vpm3MSBggbALDqRZQXitzPPLJn/?fxhash=oodGicCkjQy2pe9gZLrDXhTnYHP4hfsKY1QizPyuRdmVNzvUEzu",
@@ -85,11 +82,13 @@
         h5 Sep 5th 2021 | 732/732 editions
         p CryptoPochis are mysterious creatures that capture different emotions in your daily life. Their faces speak for themselves. They simply lie on the ground and play all day. We catch and wrap them as NFTs for you to play with.
   PageNftElectriz(v-if="workName == 'electriz'")
+  PageNftSoulFish(v-if="workName == 'soulfish'")
 </template>
 
 <script>
 import ElectrizDemo from "@/components/ElectrizDemo";
 import PageNftElectriz from "./pageNftElectriz";
+import PageNftSoulFish from "./pageNftSoulFish";
 export default {
   computed: {
     workName() {
@@ -99,6 +98,7 @@ export default {
   components: {
     ElectrizDemo,
     PageNftElectriz,
+    PageNftSoulFish,
   },
 };
 </script>
