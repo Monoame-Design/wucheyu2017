@@ -81,14 +81,31 @@
         h3 
         h5 Sep 5th 2021 | 732/732 editions
         p CryptoPochis are mysterious creatures that capture different emotions in your daily life. Their faces speak for themselves. They simply lie on the ground and play all day. We catch and wrap them as NFTs for you to play with.
+
+    router-link.row.py-3.nft-item(to="/nft/foundation")
+      .col-5
+        img.w-100(
+          src="https://f8n-production-collection-assets.imgix.net/0x85dd87674039553aBa08812185200e29b91058f3/2/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&h=640",
+          alt=""
+        )
+      .col-7
+        h2 Foundation Classic Series
+        h3 
+        h5 July 1st 2021
+        p [Che-Yu Wu | Generative Art 4K Classic series]
+        p Classic series will only mint a maximum of 10 works per algorithm on Foundation.
+  .container.pt-2.pb-5
+    router-link(to="/nft", v-if="workName") < Back
   PageNftElectriz(v-if="workName == 'electriz'")
   PageNftSoulFish(v-if="workName == 'soulfish'")
+  PageNftFoundation(v-if="workName == 'foundation'")
 </template>
 
 <script>
 import ElectrizDemo from "@/components/ElectrizDemo";
 import PageNftElectriz from "./pageNftElectriz";
 import PageNftSoulFish from "./pageNftSoulFish";
+import PageNftFoundation from "./PageNftFoundation";
 export default {
   computed: {
     workName() {
@@ -99,6 +116,7 @@ export default {
     ElectrizDemo,
     PageNftElectriz,
     PageNftSoulFish,
+    PageNftFoundation,
   },
 };
 </script>
