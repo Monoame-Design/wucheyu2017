@@ -4,7 +4,7 @@
     .row.pt-5
       .col-12
         img.w-100(
-          src="https://f8n-ipfs-production.imgix.net/QmdDNqJ9J9fEsTAaBjmdnHZ1px2zGS8BXnUnBvzdQCwSaN/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&h=640"
+          src="https://f8n-ipfs-production.imgix.net/QmS69wVbqQD43ZFfVLZsMwSjBr1GL8oy7osQyHAgM7UXBz/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680"
         )
         //- .demo-container
         //- iframe.w-100(

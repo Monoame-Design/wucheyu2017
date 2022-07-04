@@ -85,7 +85,7 @@
     router-link.row.py-3.nft-item(to="/nft/foundation")
       .col-5
         img.w-100(
-          src="https://f8n-production-collection-assets.imgix.net/0x85dd87674039553aBa08812185200e29b91058f3/2/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&h=640",
+          src="https://f8n-ipfs-production.imgix.net/QmdDNqJ9J9fEsTAaBjmdnHZ1px2zGS8BXnUnBvzdQCwSaN/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
           alt=""
         )
       .col-7
