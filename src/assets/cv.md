@@ -6,16 +6,18 @@ Che-Yu is the founder of [Monoame Design](https://monoame.com/) 8 years ago and 
 
 In recent years after graduating from [**New York University, Integrated Digital Media MS**](http://idm.engineering.nyu.edu/), he devoted himself to advocating for and introducing over ten thousands students to **creative coding and new media art** through his Hahow online courses on animated website development and creative coding for interactive experience design.
 
+
 ## NFT Projects
+
+- [**SoulSea (300 mints) on FxHash**](https://www.fxhash.xyz/generative/5438) Feel the soul of the digital ocean.
+- [**SoulFish on FxHash**](https://www.fxhash.xyz/generative/15625) Named after the artist Wu Che-Yu, the soul fish was born in the void and crystallized from human emotions.
+- [**Project % in FABDAO**](https://project.fab.tw/) The Largest Charity NFT fundraising project in Taiwan
 - **Inspiration Artwork - [Strange Robots](https://openprocessing.org/sketch/1150492) for Seahams** on [ArtBlocks](https://artblocks.io/) 
 - [**Creator of CryptoPochi**](https://opensea.io/collection/cryptopochi) - An Interactive NFT and on-chain creature
 - [**Algorithm Arts on Foundation**](https://foundation.app/@cheyuwu) - Exploring the boundary of Physics, Math, Music, and Art.
 - [**Project Electriz**](https://www.artblocks.io/project/216) on Artblocks https://cheyuwu.com/nft 
-- [**Generative Art NFT License**](https://opensea.io/collection/che-yu-wu-generative-art) on Opensea
 - [**Che-Yu Wu x White Castle SliderVerse**](https://sliderverse.doodlelabs.io/) - interactive style with White Castle’s legendary sliders to explore the intersection between food, art, tech and culture.
-- [**SoulSea (300 mints) on FxHash**](https://www.fxhash.xyz/generative/5438) Feel the soul of the digital ocean.
-
-
+- [**Generative Art NFT License**](https://opensea.io/collection/che-yu-wu-generative-art) on Opensea
 
 ## Research Interest
 - Generative Art (Creative Coding)
