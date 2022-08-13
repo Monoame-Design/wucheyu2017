@@ -3,28 +3,26 @@
     .container
       .row.mt-3
         .col-12
-
-          h1 Generative Arts
-          //- pre by Che-Yu Wu 
+          h1 Generative Arts 
           p.mb-5 Keep exploring the world with curious mind and imaginations.
-          
-          .row
+          .row.display-flex.justify-content-center.align-items-center
             .col-lg-6.text-left
               input(v-model="keyword" placeholder="Search").d-none.d-lg-block
             .col-lg-6.text-center 
               a(href="https://www.instagram.com/bosscodingplease/" target="_blank" title="Instagram").mr-5
-                i.fab.fa-instagram 
-                span  bosscodingplease
+                i.fab.fa-instagram
+                span.ml-1 Bosscodingplease
               a(href="https://twitter.com/cheyuwu345" target="_blank" title="Instagram")
                 i.fab.fa-twitter 
-                span  Twitter
+                span.ml-1 Twitter
               a(href="https://foundation.app/@cheyuwu" target="_blank" title="Instagram") 
-                img.icon(src="/static/icon_foundation.jpeg" )
-                span  Foundation
+                img.icon.mr-1(src="/static/icon_foundation.jpeg" )
+                span.ml-1 Foundation
               a(href="https://opensea.io/account?tab=created" target="_blank" title="Instagram") 
-                img.icon(src="/static/icon_opensea.png" )
-                span  Opensea
+                img.icon.mr-1(src="/static/icon_opensea.png" )
+                span.ml-1 Opensea
           
+    .container
       .row.mt-4
         a.col-sm-6.col-md-4.col-lg-3.wow.fadeIn(v-for="(item,itemId) in filteredSketches", 
           :href="`https://www.openprocessing.org/sketch/${item.visualID}`",
@@ -100,32 +98,44 @@ export default {
 </script>
 <style lang="sass">
 .page-art 
+  background-color: #000
+  color: white
+  padding-top: 50px
+  min-height: 100vh
+  *
+    color: white 
   .container
     max-width: 1700px
   a
-    color: black
+    color: white
     padding: 5px 10px 
-  a h5
-    // background-color: black
-    // color: white
-    color: black
-    margin-top: 15px
-    // font-weight: 500
+    &:hover
+      text-decoration: none
+  a h5 
+    color: white
+    margin-top: 15px 
+    margin-bottom: 30px
+    border-bottom: 2px solid white
+    
     font-weight: 600
-    font-size: 1.3rem
+    font-size: 1.4rem
     text-align: left
   img
     width: 100%
     height: auto
     box-shadow: 0px 20px 20px -10px rgba(black,0.1)
-    border-radius: 8px
+    border-radius: 5px
     overflow: hidden
+
   input
     width: 100%
     max-width: 300px
     border: solid 1px rgba(black,0.3)
     padding: 5px 20px
     border-radius: 500px
+    background-color: transparent
+    border: solid 2px white
+
   .icon
     filter: saturate(0)
     height: 25px

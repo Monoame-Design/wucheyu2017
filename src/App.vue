@@ -81,6 +81,7 @@ nav
   font-weight: bold
   display: flex
   justify-content: space-between
+  align-items: center
   transition: 0.5s
   h2,a
     transition: 0.5s
