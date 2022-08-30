@@ -22,12 +22,33 @@
         p We will only learn about it when we come to the riverside.
 
     a.row.py-3.nft-item(
+      href="https://fab.tw/",
+      target="_blank"
+    )
+      .col-5
+        img.w-100(
+          src="/static/img/Projectp.png",
+          alt=""
+        )
+ 
+      .col-7
+        h2 Project % - FABDAO
+        h3 
+        h5 The Largest Charity NFT fundraising project in Taiwan
+        p Establish by Formosa Art Bank DAO (FAB DAO).
+          br
+          | One hundred mountains rise, one island is built;
+          br
+          | One hundred people rise, a culture is built.
+        p FAB DAO, also known as Formosa Art Bank DAO, is a self-governing organization for charity NFT. The founders, Huang Dou Ni and Wu, Che-Yu, launched the largest charity NFT fundraising project in Taiwan, the "Project Percentage, %", which brings together cross-disciplinary organizations and individuals to create a new system and style in Taiwan NFT market that combines the theme of charity, art and culture.
+        p FAB DAO focuses on minting and selling non-profit NFT, creating artist and collector communities, building blockchain experiences and designing blockchain education for the public. With goodness and eternity as our starting point, we are building a connected Web3 metaverse. We will apply the good features of blockchain to take the real actions in the real world.
+    a.row.py-3.nft-item(
       href="https://www.fxhash.xyz/generative/5438",
       target="_blank"
     )
       .col-5
         img.w-100(
-          src="https://gateway.fxhash2.xyz/ipfs/QmSjD9c2S8tN4f8QpJSRtxHhkKRtpiA8LmEoNRWAdxANW7",
+          src="/static/img/soulsea.png",
           alt=""
         )
 
@@ -44,13 +65,14 @@
         p Gazing at the slices, you feel the coldness of the Arctic Ocean, the permafrost of the Antarctic Sea, the deep darkness of the bottomless sea.
         p Stay silent, hear the sound of the waves lapping at the innumerable shores far away.<br>Feel the soul of the digital ocean.
 
+
     a.row.py-3.nft-item(
-      href="https://www.fxhash.xyz/generative/5438",
+      href="https://sliderverse.doodlelabs.io/",
       target="_blank"
     )
       .col-5
         img.w-100(
-          src="https://doodlelabs.mo.cloudinary.net/mainnet/1001272.png?tx=w_300",
+          src="https://doodlelabs.mo.cloudinary.net/mainnet/1001272.png?tx=w_600",
           alt=""
         )
       .col-7
@@ -81,6 +103,19 @@
         h3 
         h5 Sep 5th 2021 | 732/732 editions
         p CryptoPochis are mysterious creatures that capture different emotions in your daily life. Their faces speak for themselves. They simply lie on the ground and play all day. We catch and wrap them as NFTs for you to play with.
+
+    a.row.py-3.nft-item(href="https://hamily.life/" target="_blank")
+      .col-5
+        img.w-100(
+          src="/static/img/strange robot.png",
+          alt=""
+        )
+      .col-7
+        h2 Seaham - Strange Robot
+        h3 
+        h5 March 28th 2021
+        p Seaham
+        p Sail-o-bots is based on the original generative project Strange Robots by Che-Yu WuSource code derived from https://openprocessing.org/sketch/1150492 under CC-BY-SA 3.0 license. Modifications include: custom botGlasses variable added with 3 different cases; custom botLips variable added with 3 different cases; 10 sets of custom colors added; antennas, ear and nose size and geometric shape types updated.
 
     router-link.row.py-3.nft-item(to="/nft/foundation")
       .col-5
