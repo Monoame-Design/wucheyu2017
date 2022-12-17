@@ -11,7 +11,7 @@
               h2.d-none.d-md-block CHE-YU WU
               h2.d-md-none CYW
             div.subroute(:class="{white: $route.path=='/about'}")
-              router-link(to="/" :class="{active: $route.path=='/'}") Work
+              router-link(to="/work" :class="{active: $route.path=='/work'}") Work
               router-link(to="/about" :class="{active: $route.path=='/about'}") About
               //router-link(to="/experiment" :class="{active: $route.path=='/experiment'}") Experiments
               router-link(to="/arts" :class="{active: $route.path=='/arts'}") Art
@@ -31,24 +31,24 @@
 </template>
 
 <script>
-import pageLoading from '@/components/pages/pageLoading'
-import socialLinks from '@/components/socialLinks'
-import {mapState} from 'vuex'
+import pageLoading from "@/components/pages/pageLoading";
+import socialLinks from "@/components/socialLinks";
+import { mapState } from "vuex";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     pageLoading,
-    'social-links': socialLinks
+    "social-links": socialLinks
   },
   computed: {
-    ...mapState(['loading'])
+    ...mapState(["loading"])
   }
-}
+};
 </script>
 
 <style lang="sass">
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap')
 canvas
   position: absolute
   z-index: -1
@@ -97,7 +97,7 @@ nav
       text-decoration: none
       padding-bottom: 0px
   &.white
-    a,h2 
+    a,h2
       color: white
   .subroute
     &.white
@@ -108,7 +108,7 @@ nav
       padding-left: 10px
       padding-right: 10px
       transition: 0.5s
-      
+
       &:hover,&.active
         // border-bottom: solid 2px
         // text-decoration: none
@@ -117,9 +117,9 @@ nav
         color: white
       // padding-left: 15px
       // padding-right: 15px
-    
+
       // color: #ff8c11
-  
+
   // margin-top: 60px
 
 .page-enter-active,.page-leave-active
@@ -158,11 +158,6 @@ nav
   // &:before
   //   top: 0
 
-
-
-
-
-
 .social-links
   a
     color: black
@@ -172,11 +167,9 @@ nav
     transition: 0.5s
     &:hover i
       transform: scale(1.2)
-        
+
 .copyright
   opacity: 0.6
   h5
     font-weight: normal
-
-
 </style>

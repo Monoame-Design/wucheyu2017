@@ -16,52 +16,52 @@ Vue.use(Router)
 export default new Router({
   mode: 'history',
   routes: [{
-      path: '/',
-      name: 'index',
-      component: pageWorks
-    }, {
-      path: '/about',
-      name: 'about',
-      component: pageAbout
-    }, {
-      path: '/nft',
-      name: 'nft',
-      component: pageNft
-    }, {
-      path: '/nft/:name',
-      name: 'nft',
-      component: pageNft
-    },
-    {
-      path: '/research',
-      name: 'research',
-      component: pageResearch
-    },
-    {
-      path: '/experiment',
-      name: 'experiment',
-      component: pageExperiment
-    }, {
-      path: '/work',
-      name: 'work',
-      component: pageWorks
-    }, {
-      path: '/arts',
-      name: 'arts',
-      component: pageArts
-    }, {
-      path: '/manage',
-      name: 'project_edit',
-      component: pageProjectEdit
-    }, {
-      path: '/thesis',
-      name: 'thesis',
-      component: pageThesis
-    }, {
-      path: '/project/:id',
-      name: 'project',
-      component: pageProject
-    }
+    path: '/',
+    name: 'index',
+    component: pageIndex
+  }, {
+    path: '/about',
+    name: 'about',
+    component: pageAbout
+  }, {
+    path: '/nft',
+    name: 'nft',
+    component: pageNft
+  }, {
+    path: '/nft/:name',
+    name: 'nft',
+    component: pageNft
+  },
+  {
+    path: '/research',
+    name: 'research',
+    component: pageResearch
+  },
+  {
+    path: '/experiment',
+    name: 'experiment',
+    component: pageExperiment
+  }, {
+    path: '/work',
+    name: 'work',
+    component: pageWorks
+  }, {
+    path: '/arts',
+    name: 'arts',
+    component: pageArts
+  }, {
+    path: '/manage',
+    name: 'project_edit',
+    component: pageProjectEdit
+  }, {
+    path: '/thesis',
+    name: 'thesis',
+    component: pageThesis
+  }, {
+    path: '/project/:id',
+    name: 'project',
+    component: pageProject
+  }
   ],
   scrollBehavior(to, from, savedPosition) {
     return new Promise((resolve, reject) => {

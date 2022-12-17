@@ -1,6 +1,6 @@
 <template lang="pug">
 .page-nft-all.text-left
-  .container.pt-5.pb-5(v-if="!workName")
+  .container.pt-md-5.pb-md-5(v-if="!workName")
     router-link.row.py-3.nft-item(to="/nft/soulfish")
       .col-md-5
         iframe.w-100(
@@ -25,13 +25,13 @@
       href="https://fab.tw/",
       target="_blank"
     )
-      .col-5
+      .col-md-5
         img.w-100(
           src="/static/img/Projectp.png",
           alt=""
         )
  
-      .col-7
+      .col-md-7
         h2 Project % - FABDAO
         h3 
         h5 The Largest Charity NFT fundraising project in Taiwan
@@ -46,7 +46,7 @@
       href="https://www.fxhash.xyz/generative/5438",
       target="_blank"
     )
-      .col-5
+      .col-md-5
         img.w-100(
           src="/static/img/soulsea.png",
           alt=""
@@ -56,7 +56,7 @@
         //-   src="https://gateway.fxhash2.xyz/ipfs/QmPDfMShxb1iQ12bwV4LivT5pC1UXoL9ZRcjjC7grr3r9P/?fxhash=ooto45sU86CaUZFWxUduRyCPqRYpVoSmKrcRcrkJ8DCxwziDb6o",
         //-   style="width: 100%; aspect-ratio: 1; border: none"
         //- )
-      .col-7
+      .col-md-7
         h2 SoulSea
         h3 
         h5 fxhash, Dec 29th 2021, 300 editions
@@ -70,12 +70,12 @@
       href="https://sliderverse.doodlelabs.io/",
       target="_blank"
     )
-      .col-5
+      .col-md-5
         img.w-100(
           src="https://doodlelabs.mo.cloudinary.net/mainnet/1001272.png?tx=w_600",
           alt=""
         )
-      .col-7
+      .col-md-7
         h2 Sliderverse
         h3 
         h5 Doodle Lab, Dec 15th 2021 | 1284/5001 editions
@@ -83,9 +83,9 @@
         p And in keeping with White Castle’s spirit of feeding the souls of their communities and team members, a portion of the proceeds from Sliderverse will directly benefit our Team Member Relief Fund and the Ingram-White Castle Team Member Scholarship.
 
     router-link.row.py-3.nft-item(to="/nft/electriz")
-      .col-5
+      .col-md-5
         img.w-100(src="https://media.artblocks.io/216000000.png", alt="")
-      .col-7
+      .col-md-7
         h2 Electriz
         h3 
         h5 Artblocks, Dec 7th 2021, 910 editions
@@ -93,24 +93,24 @@
         p The space in the work "Electriz" is divided into parts with different physical characteristics, which affect the movement, rotation, splitting, and annihilation of particles. It is an unpredictable experimental system with unlimited possibilities to explore the intersection of physics, mathematics, and art.
 
     a.row.py-3.nft-item(href="https://cryptopochi.com/", target="_blank")
-      .col-5
+      .col-md-5
         img.w-100(
           src="https://pochi.nyc3.digitaloceanspaces.com/mainnet/0x26cb33fba22f213952b8b3f3af006913b6c5b5e91081bb5c9c7764c66c98b44b.gif",
           alt=""
         )
-      .col-7
+      .col-md-7
         h2 Crypto Pochi
         h3 
         h5 Sep 5th 2021 | 732/732 editions
         p CryptoPochis are mysterious creatures that capture different emotions in your daily life. Their faces speak for themselves. They simply lie on the ground and play all day. We catch and wrap them as NFTs for you to play with.
 
     a.row.py-3.nft-item(href="https://hamily.life/" target="_blank")
-      .col-5
+      .col-md-5
         img.w-100(
           src="/static/img/strange robot.png",
           alt=""
         )
-      .col-7
+      .col-md-7
         h2 Seaham - Strange Robot
         h3 
         h5 March 28th 2021
@@ -118,18 +118,18 @@
         p Sail-o-bots is based on the original generative project Strange Robots by Che-Yu WuSource code derived from https://openprocessing.org/sketch/1150492 under CC-BY-SA 3.0 license. Modifications include: custom botGlasses variable added with 3 different cases; custom botLips variable added with 3 different cases; 10 sets of custom colors added; antennas, ear and nose size and geometric shape types updated.
 
     router-link.row.py-3.nft-item(to="/nft/foundation")
-      .col-5
+      .col-md-5
         img.w-100(
           src="https://f8n-ipfs-production.imgix.net/QmdDNqJ9J9fEsTAaBjmdnHZ1px2zGS8BXnUnBvzdQCwSaN/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
           alt=""
         )
-      .col-7
+      .col-md-7
         h2 Foundation Classic Series
         h3 
         h5 July 1st 2021
         p [Che-Yu Wu | Generative Art 4K Classic series]
         p Classic series will only mint a maximum of 10 works per algorithm on Foundation.
-  .container.pt-2.pb-5
+  .container.pt-2.pb-md-5
     router-link(to="/nft", v-if="workName") < Back
   PageNftElectriz(v-if="workName == 'electriz'")
   PageNftSoulFish(v-if="workName == 'soulfish'")
@@ -145,14 +145,14 @@ export default {
   computed: {
     workName() {
       return this.$route.params.name;
-    },
+    }
   },
   components: {
     ElectrizDemo,
     PageNftElectriz,
     PageNftSoulFish,
-    PageNftFoundation,
-  },
+    PageNftFoundation
+  }
 };
 </script>
 
