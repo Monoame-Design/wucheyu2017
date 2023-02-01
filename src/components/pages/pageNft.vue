@@ -1,6 +1,25 @@
 <template lang="pug">
 .page-nft-all.text-left
   .container.pt-md-5.pb-md-5(v-if="!workName")
+
+    router-link.row.py-3.nft-item(to="/nft/thesoul")
+      .col-md-5
+        iframe.w-100(
+          src="https://ipfs.io/ipfs/bafybeidjaufhp24iz36rqonu3yhbxtj2inznnzuil3jmpkhp4dynq4gxee",
+          style="width: 100%; aspect-ratio: 1; border: none"
+        )
+
+        //- img.w-100(
+        //-   src="https://gateway.fxhash2.xyz/ipfs/QmSjD9c2S8tN4f8QpJSRtxHhkKRtpiA8LmEoNRWAdxANW7",
+        //-   alt=""
+        //- )
+      .col-md-7
+        h2 The Soul
+        h3 
+        h5 Che-Yu Wu Interactive Collection | 2023 | 100 editions
+        p In the darkness, the vast eyes of the universe gaze upon you, their pupils aglow with hues and radiance beyond this realm, inquiring about the essence of your being.
+        p "The Soul" was inspired by Olafur Eliasson's "The Weather Project" installation from 2003, as well as the brand visual for the 2022 Solana Breakpoint Conference. The use of fluorescent colours and gradients in the conference's branding inspired the use of these elements in my own work. 
+        p I developed while attending the conference. The work aims to bring the outside world inside and create a cosmic vision for the audience to experience. The work is meant to resemble an immense, floating eye staring into the void and asking the audience to consider the meaning of life and their deepest desires.
     router-link.row.py-3.nft-item(to="/nft/soulfish")
       .col-md-5
         iframe.w-100(
@@ -134,6 +153,7 @@
   PageNftElectriz(v-if="workName == 'electriz'")
   PageNftSoulFish(v-if="workName == 'soulfish'")
   PageNftFoundation(v-if="workName == 'foundation'")
+  PageNftTheSoul(v-if="workName == 'thesoul'")
 </template>
 
 <script>
@@ -141,6 +161,7 @@ import ElectrizDemo from "@/components/ElectrizDemo";
 import PageNftElectriz from "./pageNftElectriz";
 import PageNftSoulFish from "./pageNftSoulFish";
 import PageNftFoundation from "./PageNftFoundation";
+import PageNftTheSoul from "./pageNftTheSoul.vue";
 export default {
   computed: {
     workName() {
@@ -151,7 +172,8 @@ export default {
     ElectrizDemo,
     PageNftElectriz,
     PageNftSoulFish,
-    PageNftFoundation
+    PageNftFoundation,
+    PageNftTheSoul
   }
 };
 </script>
@@ -168,7 +190,7 @@ export default {
     &:hover
       text-decoration: none
   .container
-    max-width: 1200px
+    max-width: 1400px
   .nft-item
     border: solid 1px rgba(white,0.3)
     transition: 0.2s
