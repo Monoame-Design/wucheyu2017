@@ -58,11 +58,11 @@
         //-     | &nbsp;Set Reminder
     .row.py-4
       .col-lg-12
-        p(style="font-size: 50px;font-style: italic;") "Lost in the depths of the lake's shore,
+        p(style="font-size: 50px;font-style: italic;") "Lost in the depths of the lake's shore,  
           br
-          | The world's reflection is seen as subjective projection,
+          | The world's reflection is seen as a subjective projection,  
           br
-          | Reflecting unease and fear,
+          | Reflecting on unease and fear,  
           br
           | Complexifying the reality perceived."
     .row.py-4
