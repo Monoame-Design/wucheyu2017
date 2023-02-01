@@ -163,6 +163,15 @@ import PageNftSoulFish from "./pageNftSoulFish";
 import PageNftFoundation from "./PageNftFoundation";
 import PageNftTheSoul from "./pageNftTheSoul.vue";
 export default {
+  metaInfo: {
+    title: "The Soul by Che-Yu Wu",
+    meta: [
+      {
+        property: "og:image",
+        content: "/static/img/the-soul-og.png"
+      }
+    ]
+  },
   computed: {
     workName() {
       return this.$route.params.name;

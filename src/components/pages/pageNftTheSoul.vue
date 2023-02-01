@@ -105,6 +105,15 @@
 //let allHref = Array.from(document.querySelectorAll(".CardsContainer_container__D68gk a")).map(k=>k.href)
 //allSrc.map((src,id)=>({src: src,href: allHref[id]}))
 export default {
+  metaInfo: {
+    title: "The Soul by Che-Yu Wu",
+    meta: [
+      {
+        property: "og:image",
+        content: "/static/img/the-soul-og.png"
+      }
+    ]
+  },
   data() {
     return {};
   },

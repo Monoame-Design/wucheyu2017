@@ -9,7 +9,9 @@ import $ from 'jquery'
 import 'element-ui/lib/theme-chalk/index.css'
 import '@/assets/fontawesome-pro-5.8.1-web/css/all.min.css'
 import '@/assets/fontawesome-pro-5.8.1-web/js/all.min.js'
-import SoftScroll from './plugins/soft_scroll.js' 
+import VueMeta from 'vue-meta'
+Vue.use(VueMeta)
+import SoftScroll from './plugins/soft_scroll.js'
 // import p5 from 'p5'
 import VueAnalytics from 'vue-analytics'
 
@@ -21,7 +23,7 @@ Vue.use(pvm)
 // import 'font-awesome/css/all.css'
 
 import CodeArea from './components/CodeArea'
-Vue.component("CodeArea",CodeArea)
+Vue.component("CodeArea", CodeArea)
 
 if (document.domain == "cheyuwu.com") {
   Vue.use(VueAnalytics, {
@@ -49,26 +51,26 @@ var vm = new Vue({
   components: { App }
 })
 setTimeout(() => {
-  store.commit("setLoading",false)
+  store.commit("setLoading", false)
 }, 100);
 //https://www.openprocessing.org/api/user/139364/sketchs.json
 
-  // this.$set(this,"userData",data)
-  // console.log(data)
+// this.$set(this,"userData",data)
+// console.log(data)
 
-try{  
-  $.getJSON("/static/sketchs.json",(data)=>{
-    store.commit("setUserData",data)
-    $.getJSON("/static/sketchs.php",(data)=>{
-      store.commit("setUserData",data)
+try {
+  $.getJSON("/static/sketchs.json", (data) => {
+    store.commit("setUserData", data)
+    $.getJSON("/static/sketchs.php", (data) => {
+      store.commit("setUserData", data)
     })
   })
-}catch (err){
-  $.getJSON("/static/sketchs.json",(data)=>{
-    store.commit("setUserData",data)
+} catch (err) {
+  $.getJSON("/static/sketchs.json", (data) => {
+    store.commit("setUserData", data)
   })
 }
-  
+
 
 
 Vue.mixin({
@@ -100,7 +102,7 @@ worksRef.on('value', function (snapshot) {
 
   store.commit("setWorks", snapshot.val())
   // snapshot.forEach(function (childSnapshot) {
-    
+
   //   var childKey = childSnapshot.key;
   //   var childData = childSnapshot.val();
   //   store.commit("setWorks", childData)
