@@ -163,14 +163,49 @@ import PageNftSoulFish from "./pageNftSoulFish";
 import PageNftFoundation from "./PageNftFoundation";
 import PageNftTheSoul from "./pageNftTheSoul.vue";
 export default {
-  metaInfo: {
-    title: "The Soul by Che-Yu Wu",
-    meta: [
-      {
-        property: "og:image",
-        content: "/static/img/the-soul-og.png"
-      }
-    ]
+  metaInfo() {
+    if (workName == "electriz") {
+      return {
+        title: "Electriz by Che-Yu Wu",
+        meta: [
+          {
+            property: "og:image",
+            content: "/static/img/electriz-og.png"
+          }
+        ]
+      };
+    } else if (workName == "soulfish") {
+      return {
+        title: "Soul Fish by Che-Yu Wu",
+        meta: [
+          {
+            property: "og:image",
+            content:
+              "https://gateway.fxhash2.xyz/ipfs/QmUxarxjf9JtSpfVAaKVEWt2sjChzwsL2A3az9bvivA9Fj"
+          }
+        ]
+      };
+    } else if (workName == "foundation") {
+      return {
+        title: "Foundation by Che-Yu Wu",
+        meta: [
+          {
+            property: "og:image",
+            content: "/static/img/foundation-og.png"
+          }
+        ]
+      };
+    } else if (workName == "thesoul") {
+      return {
+        title: "The Soul by Che-Yu Wu",
+        meta: [
+          {
+            property: "og:image",
+            content: "/static/img/the-soul-og.png"
+          }
+        ]
+      };
+    }
   },
   computed: {
     workName() {
