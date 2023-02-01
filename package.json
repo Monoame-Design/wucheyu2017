@@ -18,7 +18,7 @@
     "node-sass": "npm:sass@^1.58.0",
     "p5": "^0.7.2",
     "p5-vue-mirror": "^1.0.5",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "raw-loader": "^4.0.2",
     "sass": "^1.42.1",
     "showdown": "^1.9.1",
