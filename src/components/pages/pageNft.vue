@@ -2,6 +2,23 @@
 .page-nft-all.text-left
   .container.pt-md-5.pb-md-5(v-if="!workName")
 
+    a.row.py-3.nft-item(href="https://app.manifold.xyz/c/230206-Memegineering" target="_blank")
+      .col-md-5
+        iframe.w-100(
+          src="https://ipfs.io/ipfs/bafybeibhoihhhdkfd3vieww45dwq5yiyxen3isjsvqmxsbjauhvrlrsxdm",
+          style="width: 100%; aspect-ratio: 1; border: none"
+        )
+
+        //- img.w-100(
+        //-   src="https://gateway.fxhash2.xyz/ipfs/QmSjD9c2S8tN4f8QpJSRtxHhkKRtpiA8LmEoNRWAdxANW7",
+        //-   alt=""
+        //- )
+      .col-md-7
+        h2 230206 MEMEGINEERING
+        h3 
+        h5 Che-Yu Wu Interactive Memes | 2023 | 420 editions
+        p Piping interactive memes as the digital blood of the internet.
+        p Memegineering is all about bringing dynamic and interactive experiences to the world of memes. These memes are not just static images, but rather they are designed to be interactive, allowing users to engage with the content in a unique and exciting way. Whether you're clicking, tapping, or scrolling, these memes are sure to provide a fun and dynamic experience that will keep you entertained for hours. With 420 editions, there's a never-ending supply of interactive memes to explore, making Memegineering a must-see for anyone who loves humor, memes, and the internet.
     router-link.row.py-3.nft-item(to="/nft/thesoul")
       .col-md-5
         iframe.w-100(
@@ -49,7 +66,6 @@
           src="/static/img/Projectp.png",
           alt=""
         )
- 
       .col-md-7
         h2 Project % - FABDAO
         h3 
@@ -150,6 +166,7 @@
         p Classic series will only mint a maximum of 10 works per algorithm on Foundation.
   .container.pt-2.pb-md-5
     router-link(to="/nft", v-if="workName") < Back
+  PageNftMemes(v-if="workName == 'memes'")
   PageNftElectriz(v-if="workName == 'electriz'")
   PageNftSoulFish(v-if="workName == 'soulfish'")
   PageNftFoundation(v-if="workName == 'foundation'")
@@ -162,6 +179,7 @@ import PageNftElectriz from "./pageNftElectriz";
 import PageNftSoulFish from "./pageNftSoulFish";
 import PageNftFoundation from "./PageNftFoundation";
 import PageNftTheSoul from "./pageNftTheSoul.vue";
+import PageNftMemes from "./pageNftMemes.vue";
 export default {
   metaInfo() {
     if (workName == "electriz") {
@@ -205,6 +223,16 @@ export default {
           }
         ]
       };
+    } else if (workName == "memes") {
+      return {
+        title: "Interactive Memes by Che-Yu Wu",
+        meta: [
+          {
+            property: "og:image",
+            content: "/static/img/memes-og.png"
+          }
+        ]
+      };
     }
   },
   computed: {
@@ -223,7 +251,7 @@ export default {
 </script>
 
 <style lang="sass">
-@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap')
+// @import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap')
 .page-nft-all
   background-color: black
   color: white
