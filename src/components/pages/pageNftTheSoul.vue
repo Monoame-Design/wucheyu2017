@@ -48,7 +48,7 @@
           li Click to enable sound
       .col-12.col-lg-3
         a.d-md-block(
-          href="#",
+          href="https://opensea.io/assets/ethereum/0xf645c744557c69de9f326468b09b27db70c27993/1",
           target="_blank"
         )
           button.btn Project Link
