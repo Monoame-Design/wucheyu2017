@@ -1,21 +1,55 @@
 <template lang="pug">
 .page-nft-all.text-left
   .container.pt-md-5.pb-md-5(v-if="!workName")
-
-    a.row.py-3.nft-item(href="https://app.manifold.xyz/c/230206-Memegineering" target="_blank")
+    a.row.py-3.nft-item(href="https://opensea.io/assets/ethereum/0x33fd426905f149f8376e227d0c9d3340aad17af1/74" target="_blank")
       .col-md-5
         iframe.w-100(
-          src="https://ipfs.io/ipfs/bafybeibhoihhhdkfd3vieww45dwq5yiyxen3isjsvqmxsbjauhvrlrsxdm",
+          src="https://ipfs.io/ipfs/bafybeig7eymxakrydhgok5ixunaxszoewdizlkw2afohg6js5j7ajjiuvi",
           style="width: 100%; aspect-ratio: 1; border: none"
         )
 
-        //- img.w-100(
-        //-   src="https://gateway.fxhash2.xyz/ipfs/QmSjD9c2S8tN4f8QpJSRtxHhkKRtpiA8LmEoNRWAdxANW7",
-        //-   alt=""
-        //- )
+
+      .col-md-7
+        h2 Hamily x The Memes by 6529 x Che-Yu Wu
+        h3
+        h5 Season 2, Card 2 | 2023/3/2 | 690 editions
+        p Amidst the crowd, the hams lie low,
+          br
+          | Scaling peaks and valleys, high and low,
+          br
+          | We're a meme community, unique and bold,
+          br
+          | Creating waves of madness, untold.
+        p Our force is strong, our power great,
+          br
+          | Recreating trends, we never wait,
+          br
+          | Stealing the spotlight with style and flair,
+          br
+          | Leaving the world in awe and in despair.
+        p Join us now, be a part of this art,
+          br
+          | The world of hams and memes, it's just the start,
+          br
+          | For we'll keep on rising, day by day,
+          br
+          | With our crazed creativity on full display.
+        h3 Interactivity:
+        ul
+          li Move the mouse around to WAGMI with the hams
+          li Press S to download image
+          li Press H to go to the Hamily website
+
+    a.row.py-3.nft-item(href="https://app.manifold.xyz/c/230206-Memegineering" target="_blank")
+      .col-md-5
+        img.w-100(
+          src="https://i.seadn.io/gcs/files/548b31d254f1caf5a115304d9b3cff76.gif?auto=format&w=960",
+          alt=""
+        )
+
       .col-md-7
         h2 230206 MEMEGINEERING
-        h3 
+        h3
         h5 Che-Yu Wu Interactive Memes | 2023 | 420 editions
         p Piping interactive memes as the digital blood of the internet.
         p Memegineering is all about bringing dynamic and interactive experiences to the world of memes. These memes are not just static images, but rather they are designed to be interactive, allowing users to engage with the content in a unique and exciting way. Whether you're clicking, tapping, or scrolling, these memes are sure to provide a fun and dynamic experience that will keep you entertained for hours. With 420 editions, there's a never-ending supply of interactive memes to explore, making Memegineering a must-see for anyone who loves humor, memes, and the internet.
@@ -32,10 +66,10 @@
         //- )
       .col-md-7
         h2 The Soul
-        h3 
+        h3
         h5 Che-Yu Wu Interactive Collection | 2023 | 100 editions
         p In the darkness, the vast eyes of the universe gaze upon you, their pupils aglow with hues and radiance beyond this realm, inquiring about the essence of your being.
-        p "The Soul" was inspired by Olafur Eliasson's "The Weather Project" installation from 2003, as well as the brand visual for the 2022 Solana Breakpoint Conference. The use of fluorescent colours and gradients in the conference's branding inspired the use of these elements in my own work. 
+        p "The Soul" was inspired by Olafur Eliasson's "The Weather Project" installation from 2003, as well as the brand visual for the 2022 Solana Breakpoint Conference. The use of fluorescent colours and gradients in the conference's branding inspired the use of these elements in my own work.
         p I developed while attending the conference. The work aims to bring the outside world inside and create a cosmic vision for the audience to experience. The work is meant to resemble an immense, floating eye staring into the void and asking the audience to consider the meaning of life and their deepest desires.
     router-link.row.py-3.nft-item(to="/nft/soulfish")
       .col-md-5
@@ -50,7 +84,7 @@
         //- )
       .col-md-7
         h2 SoulFish
-        h3 
+        h3
         h5 fxhash, June 2nd 2022, 1000 editions
         p Named after the artist Wu Che-Yu, the soul fish was born in the void and crystallized from human emotions.
         p Fluttering silently and slowly, their bodies almost disappeared in the light of the deep sea.<br></br>The fish swims freely, and this is the happiness of the fish.
@@ -68,7 +102,7 @@
         )
       .col-md-7
         h2 Project % - FABDAO
-        h3 
+        h3
         h5 The Largest Charity NFT fundraising project in Taiwan
         p Establish by Formosa Art Bank DAO (FAB DAO).
           br
@@ -93,7 +127,7 @@
         //- )
       .col-md-7
         h2 SoulSea
-        h3 
+        h3
         h5 fxhash, Dec 29th 2021, 300 editions
         p You look down and find that the ocean in your heart is a sine wave.<br>The tide gently laps onto the shore.
         p The soul is the sea. You are the land.<br/>There are waves on the shore, and the waves are slices.
@@ -112,7 +146,7 @@
         )
       .col-md-7
         h2 Sliderverse
-        h3 
+        h3
         h5 Doodle Lab, Dec 15th 2021 | 1284/5001 editions
         p In honor of White Castle’s 100th Birthday, renowned multimedia artist Che-Yu Wu has reimagined the White Castle menu through a generative art lens. Each unique edition within this series of collectible NFTs is generated by an algorithm at the time of mint, pushing the boundaries of physics, mathematics, and art. This series combines Che-Yu’s signature, interactive style with White Castle’s legendary sliders to explore the intersection between food, art, tech and culture.
         p And in keeping with White Castle’s spirit of feeding the souls of their communities and team members, a portion of the proceeds from Sliderverse will directly benefit our Team Member Relief Fund and the Ingram-White Castle Team Member Scholarship.
@@ -122,7 +156,7 @@
         img.w-100(src="https://media.artblocks.io/216000000.png", alt="")
       .col-md-7
         h2 Electriz
-        h3 
+        h3
         h5 Artblocks, Dec 7th 2021, 910 editions
         p "Electriz" is a series of works that use digital cloud chambers to observe the traces of unidentified particles. When doing art creation, just like scientists discovering new particles, artists continue to draw interesting ideas from reality and fantasy to collide with each other, trying to find a unique existence at the moment of collision in the process of mixing ideas.
         p The space in the work "Electriz" is divided into parts with different physical characteristics, which affect the movement, rotation, splitting, and annihilation of particles. It is an unpredictable experimental system with unlimited possibilities to explore the intersection of physics, mathematics, and art.
@@ -135,7 +169,7 @@
         )
       .col-md-7
         h2 Crypto Pochi
-        h3 
+        h3
         h5 Sep 5th 2021 | 732/732 editions
         p CryptoPochis are mysterious creatures that capture different emotions in your daily life. Their faces speak for themselves. They simply lie on the ground and play all day. We catch and wrap them as NFTs for you to play with.
 
@@ -147,7 +181,7 @@
         )
       .col-md-7
         h2 Seaham - Strange Robot
-        h3 
+        h3
         h5 March 28th 2021
         p Seaham
         p Sail-o-bots is based on the original generative project Strange Robots by Che-Yu WuSource code derived from https://openprocessing.org/sketch/1150492 under CC-BY-SA 3.0 license. Modifications include: custom botGlasses variable added with 3 different cases; custom botLips variable added with 3 different cases; 10 sets of custom colors added; antennas, ear and nose size and geometric shape types updated.
@@ -160,7 +194,7 @@
         )
       .col-md-7
         h2 Foundation Classic Series
-        h3 
+        h3
         h5 July 1st 2021
         p [Che-Yu Wu | Generative Art 4K Classic series]
         p Classic series will only mint a maximum of 10 works per algorithm on Foundation.
