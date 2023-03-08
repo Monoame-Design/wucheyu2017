@@ -1,6 +1,6 @@
 ## Bio
 
-Che-Yu Wu is a **New media artist, designer, engineer, speaker, and entrepreneur** who enjoys quirky and unique things. By combining the rationality of his electrical engineering background in [National Yang Ming Chiao Tung University](https://www.nycu.edu.tw/) with the sentimentality of visual design, he draws inspirations from **nature, physics, modern art, mathematical rhythm, and music** to create compounding algorithmic works, explore the border between art and engineering, and establish unparalleled interactive experiences. 
+Che-Yu Wu is a **New media artist, designer, engineer, speaker, and entrepreneur** who enjoys quirky and unique things. By combining the rationality of his electrical engineering background in [National Yang Ming Chiao Tung University](https://www.nycu.edu.tw/) with the sentimentality of visual design, he draws inspirations from **nature, physics, modern art, mathematical rhythm, and music** to create compounding algorithmic works, explore the border between art and engineering, and establish unparalleled interactive experiences.
 
 Che-Yu is the founder of [Monoame Design](https://monoame.com/) 8 years ago and worked with clients like [Department of Rapid Transit Systems](https://en.wikipedia.org/wiki/Department_of_Rapid_Transit_Systems,_Taipei_City_Government), [Nissan](https://www.nissanusa.com/), [National Palace Museum](https://www.npm.gov.tw/?l=2) and [Industrial Technology Research Institute](https://www.itri.org.tw/english/), [Taipei Computer Association](https://www.tca.org.tw/en/), [Taipei City Government ](https://english.gov.taipei/), [National Center for High‑Performance Computing](https://www.nchc.org.tw/?langid=2), [RemyMartin & Selinko](https://selinko.com/press/remy-martin-club-connected-bottle/) ... to provide dynamic experience applications and solutions.
 
@@ -9,13 +9,15 @@ In recent years after graduating from [**New York University, Integrated Digital
 
 ## NFT Projects
 
+- **[Che-Yu Wu x 6529 Meme cards](https://opensea.io/assets/ethereum/0x33fd426905f149f8376e227d0c9d3340aad17af1/74)** Season 2, Card 2 | 2023/3/2 | 690 editions, Interactive with cheering
+- **[Che-Yu Wu Interactive Memes](https://www.curate.page/t/cheyuwu)** | Memegineering / Check Hams
 - [**SoulSea (300 mints) on FxHash**](https://www.fxhash.xyz/generative/5438) Feel the soul of the digital ocean.
 - [**SoulFish on FxHash**](https://www.fxhash.xyz/generative/15625) Named after the artist Wu Che-Yu, the soul fish was born in the void and crystallized from human emotions.
 - [**Project % in FABDAO**](https://project.fab.tw/) The Largest Charity NFT fundraising project in Taiwan
-- **Inspiration Artwork - [Strange Robots](https://openprocessing.org/sketch/1150492) for Seahams** on [ArtBlocks](https://artblocks.io/) 
+- **Inspiration Artwork - [Strange Robots](https://openprocessing.org/sketch/1150492) for Seahams** on [ArtBlocks](https://artblocks.io/)
 - [**Creator of CryptoPochi**](https://opensea.io/collection/cryptopochi) - An Interactive NFT and on-chain creature
 - [**Algorithm Arts on Foundation**](https://foundation.app/@cheyuwu) - Exploring the boundary of Physics, Math, Music, and Art.
-- [**Project Electriz**](https://www.artblocks.io/project/216) on Artblocks https://cheyuwu.com/nft 
+- [**Project Electriz**](https://www.artblocks.io/project/216) on Artblocks https://cheyuwu.com/nft
 - [**Che-Yu Wu x White Castle SliderVerse**](https://sliderverse.doodlelabs.io/) - interactive style with White Castle’s legendary sliders to explore the intersection between food, art, tech and culture.
 - [**Generative Art NFT License**](https://opensea.io/collection/che-yu-wu-generative-art) on Opensea
 
@@ -64,7 +66,7 @@ In recent years after graduating from [**New York University, Integrated Digital
 - FutureTech Showcase Selected Work - Floating in the Sky / **Palpable Media & Deloitte** / 2020
 - Accepted VR Work - Floating in the Sky, an experience of exploring the VR world with a floating umbrella (physical computing + VR) / **[NYC Media Lab](https://www.nycmedialab.org/) Exhibition** / 2020
 - [1st Prize and Grand Prize of the Practitioner Group](https://digi.ey.gov.tw/Page/1538F8CF7474AB4E/cd53e320-984b-426b-ac0a-2cdf0bc6083a)  / **Smart City Hackathon hosted by Industrial Development Bureau Taiwan** / Taipei / 2016
-- 1st Prize and Grand Prize of the Microsoft group / **Meizhu Hachthon (National Tsing Hua University & National Chiao Tung University)** / 
+- 1st Prize and Grand Prize of the Microsoft group / **Meizhu Hachthon (National Tsing Hua University & National Chiao Tung University)** /
 - 1st Prize / **Intelligent Ironman Creativity Contest** / 2013
 - 1st Prize and Grand Prize of the Jury / **9th Acer Digital Innovation Award** / Taipei / 2013
 - 2nd Prize of the Jury / **8th Acer Digital Innovation Award** / Taipei / 2012
@@ -76,7 +78,7 @@ In recent years after graduating from [**New York University, Integrated Digital
 
 ![](https://i.imgur.com/g6CzpEG.jpg)
 
-* [Thesis - Intuitive Music Expression Tool ](https://cheyuwu.com/thesis) / **[New York University, Integrated Digital Media](http://idm.engineering.nyu.edu/)** / [Demo](https://www.youtube.com/watch?v=iclQBGiTfiQ) - A web-based tool (made with p5.js) that allowed people to work together, edit and change the melody in an intuitive way. 
+* [Thesis - Intuitive Music Expression Tool ](https://cheyuwu.com/thesis) / **[New York University, Integrated Digital Media](http://idm.engineering.nyu.edu/)** / [Demo](https://www.youtube.com/watch?v=iclQBGiTfiQ) - A web-based tool (made with p5.js) that allowed people to work together, edit and change the melody in an intuitive way.
 * [Floating in the sky - VR experience](https://cheyuwu.com/project/Floating_in_the_sky_-_VR_experience) / **[New York University, IDM](http://idm.engineering.nyu.edu/)**
     Floating in the sky is a first person VR experience, which allows you to escape from the dark city and explore the beautiful world using a magic umbrella to control your movement in the sky.
 * [EXPLODE - Motion Capture Performance](https://cheyuwu.com/project/EXPLODE_-_Motion_Capture_Performance) / **[New York University, IDM](http://idm.engineering.nyu.edu/)**
@@ -84,21 +86,21 @@ In recent years after graduating from [**New York University, Integrated Digital
 * VR L-system tree planting experience / [**New Reality Company**](http://newreality.co/) / [Demo](https://www.youtube.com/watch?v=GnyrFudDV6I)
     Making an interactive seed-planting experience using Oculus Rift * Leap motion to create a intuitive and immersive application.
 * [Taipei Metro Soundscape - Interactive Website](https://cheyuwu.com/project/Taipei_Metro_Soundscape_-_Interactive_Website) / **[Monoame Design](https://monoame.com/)**
-    This project was in cooperation with Harvest Music Production. Together we ordinated the 2017 Metro Soundscape Contest, hoping to collect musical works from local musicians and providing sounds exclusively belonging to the metro stations. 
+    This project was in cooperation with Harvest Music Production. Together we ordinated the 2017 Metro Soundscape Contest, hoping to collect musical works from local musicians and providing sounds exclusively belonging to the metro stations.
 * [Nissan New Juke Presale website](https://monoame.com/works/33) / **[Monoame Design](https://monoame.com/)**
     NISSAN teamed up with Warner Music to create "the first domestic cranial orgasm sensory singer", which shocked the pop music circle
 * [RemyMartin & Selinko UI/UX Design & 3D modeling](https://monoame.com/works/5)/ **[Monoame Design](https://monoame.com/)**
 
-## Teaching (Online Courses) 
+## Teaching (Online Courses)
 
 Online Course at [Hahow](https://hahow.in/)(Taiwan's biggest online academy)
 
-- [Dynamic Interactive website Introduction HTML/CSS/JS 動態互動網頁程式入門](https://hahow.in/cr/monoame-webdesign1) at Hahow (10244 students, NT $2,000) 
+- [Dynamic Interactive website Introduction HTML/CSS/JS 動態互動網頁程式入門](https://hahow.in/cr/monoame-webdesign1) at Hahow (10244 students, NT $2,000)
 - [Dynamic advanced WebFX introduction (JS/CANVAS/GSAP) 動態互動網頁特效入門](https://hahow.in/cr/monoame-webdesign2) at Hahow (4749 students, NT $2,500)
-- [Generative Art & p5.js introduction (Creatie Coding) 互動藝術程式創作入門](https://hahow.in/cr/creative-coding-1) (2348 students, NT $2,400) 
+- [Generative Art & p5.js introduction (Creatie Coding) 互動藝術程式創作入門](https://hahow.in/cr/creative-coding-1) (2348 students, NT $2,400)
 
-## Tutorials 
-Developer Youtube Channel [Boss, Coding Please](https://www.youtube.com/channel/UCHX_XMhPrtvOmgGOnA2eTmA) (6200 followers) 
+## Tutorials
+Developer Youtube Channel [Boss, Coding Please](https://www.youtube.com/channel/UCHX_XMhPrtvOmgGOnA2eTmA) (6200 followers)
 
 ### Web developments
 - [Lets use socket.io to make a real-time interactive game! ](https://www.youtube.com/watch?v=QVZcMx3jtG8) 來用socket.io做個即時互動的遊戲吧！
@@ -114,7 +116,7 @@ Developer Youtube Channel [Boss, Coding Please](https://www.youtube.com/channel/
 - [Making Fireworks festival with p5.js](https://www.youtube.com/watch?v=vvVwUMqoxIM) Creative Coding 花火大會教學
 
 
-## Speakership 
+## Speakership
 - Introduction to New Media, Technology and Program Art Creation / [**Fine Arts Education Resource Center, Ministry Of Education 台灣教育部美術學科中心**](https://ghresource.mt.ntnu.edu.tw/nss/s/main/p/FineArts) Seminar / Online / 2021
 - Application of Javascript in generative & Algorithm art and NFT / **[JavaScript Developer Conference](https://2021.jsdc.tw/aboutus)** / Online / 2021
 - Introduction to New Media Art, Technology and Generative Algorithms / **[Cultural Creativity and Multimedia Alliance Center, National Tsing Hua University](https://uc.itsa.org.tw/multimedia/news.php)** / Hsinchu, Taiwan / 2021
@@ -128,20 +130,20 @@ Developer Youtube Channel [Boss, Coding Please](https://www.youtube.com/channel/
 - [TEDxNCUE「嚮」- Creating possibilities with a multidisciplinary mindset](https://www.youtube.com/watch?v=bl5MrZ6GA98) / **[National Changhua University of Education](https://en.ncue.edu.tw/bin/home.php)** / Changhua, Taiwan
 - The journey of self-learning Graphics Design 自學者之夜3｜平面設計篇 / [**Self-study night**](https://www.accupass.com/event/1609260802316724526560) / Taipei, Taiwan
 - [Presentation Contest](https://www.youtube.com/watch?v=OF9wkZGrGPQ) / **National Chiao Tung University** / Hsinchu, Taiwan
- 
+
 
 ## Writing
 
 * [Being a Research Assistant at New York University (在紐約大學讀研當助教的進化日誌)](https://medium.com/%E8%80%81%E9%97%86%E4%BE%86%E9%BB%9E%E5%AF%87%E6%B1%80%E5%90%A7/%E5%9C%A8%E7%B4%90%E7%B4%84%E5%A4%A7%E5%AD%B8%E8%AE%80%E7%A0%94%E7%95%B6%E5%8A%A9%E6%95%99%E7%9A%84%E9%80%B2%E5%8C%96%E6%97%A5%E8%AA%8C-b5f0d604201a) (2.5k claps)
 * [Making an online course that combine Web development, design, math and VFX (釀造一門結合網頁-設計-數學與特效的線上程式課程)](https://medium.com/%E8%80%81%E9%97%86%E4%BE%86%E9%BB%9E%E5%AF%87%E6%B1%80%E5%90%A7/%E9%87%80%E9%80%A0%E4%B8%80%E9%96%80%E7%B5%90%E5%90%88%E7%B6%B2%E9%A0%81-%E8%A8%AD%E8%A8%88-%E6%95%B8%E5%AD%B8%E8%88%87%E7%89%B9%E6%95%88%E7%9A%84%E7%B7%9A%E4%B8%8A%E7%A8%8B%E5%BC%8F%E8%AA%B2%E7%A8%8B-cef5d998c707) (4.2k claps)
-* [Not only an online web course, but a bet to evolve the community (從不只是一門線上課程-而是一場推動進化的豪賭)](https://medium.com/%E8%80%81%E9%97%86%E4%BE%86%E9%BB%9E%E5%AF%87%E6%B1%80%E5%90%A7/%E5%BE%9E%E4%B8%8D%E5%8F%AA%E6%98%AF%E4%B8%80%E9%96%80%E7%B7%9A%E4%B8%8A%E8%AA%B2%E7%A8%8B-%E8%80%8C%E6%98%AF%E4%B8%80%E5%A0%B4%E6%8E%A8%E5%8B%95%E9%80%B2%E5%8C%96%E7%9A%84%E8%B1%AA%E8%B3%AD-2016%E8%88%8A%E6%96%87%E6%95%B4%E7%90%86-48d90fee113a) 
+* [Not only an online web course, but a bet to evolve the community (從不只是一門線上課程-而是一場推動進化的豪賭)](https://medium.com/%E8%80%81%E9%97%86%E4%BE%86%E9%BB%9E%E5%AF%87%E6%B1%80%E5%90%A7/%E5%BE%9E%E4%B8%8D%E5%8F%AA%E6%98%AF%E4%B8%80%E9%96%80%E7%B7%9A%E4%B8%8A%E8%AA%B2%E7%A8%8B-%E8%80%8C%E6%98%AF%E4%B8%80%E5%A0%B4%E6%8E%A8%E5%8B%95%E9%80%B2%E5%8C%96%E7%9A%84%E8%B1%AA%E8%B3%AD-2016%E8%88%8A%E6%96%87%E6%95%B4%E7%90%86-48d90fee113a)
 
 ## Artworks
 ![](https://i.imgur.com/OimOeuY.jpg)
 
 - [Foundation | Classic Series](https://foundation.app/@cheyuwu) Classic series will only mint a maximum of 10 works per algorithm on Foundation.
 - [Opensea  | Crypto Pochi](https://opensea.io/collection/cryptopochi) CryptoPochi is an interactive NFT project that captures your daily life emotions and shapes. They laugh, cry, being lazy all the times.
-- [Generative Art NFT - Che-Yu Wu](https://opensea.io/collection/che-yu-wu-generative-art) Creative Coding Art Source Code (21 items, Out of Print Collection at 07/20/2021.) 
+- [Generative Art NFT - Che-Yu Wu](https://opensea.io/collection/che-yu-wu-generative-art) Creative Coding Art Source Code (21 items, Out of Print Collection at 07/20/2021.)
 - [Open Processing | Daily Creative Coding (400 works)](https://openprocessing.org/user/139364/?view=sketches#sketches)
 - [Why hams](https://blog.floors.cafe/why-hams/)
 
@@ -165,15 +167,15 @@ Developer Youtube Channel [Boss, Coding Please](https://www.youtube.com/channel/
     * 闖進紐約的台灣之光，憑NFT實現財富自由的26歲無名小卒 / [遠見雜誌](https://www.gvm.com.tw/article/85552), [Yahoo 奇摩新聞](https://tw.news.yahoo.com/%E7%8D%A8%E5%AE%B6-%E9%97%96%E9%80%B2%E7%B4%90%E7%B4%84%E7%9A%84%E5%8F%B0%E7%81%A3%E4%B9%8B%E5%85%89-%E6%86%91nft%E5%AF%A6%E7%8F%BE%E8%B2%A1%E5%AF%8C%E8%87%AA%E7%94%B1%E7%9A%8426%E6%AD%B2%E7%84%A1%E5%90%8D%E5%B0%8F%E5%8D%92-110300616.html)
     * [NFT故事集：用程式碼畫畫賣出一億元的台灣人 - Che-Yu Wu](https://matters.news/@mashbean/nft%E6%95%85%E4%BA%8B%E9%9B%86-%E7%94%A8%E7%A8%8B%E5%BC%8F%E7%A2%BC%E7%95%AB%E7%95%AB%E8%B3%A3%E5%87%BA%E4%B8%80%E5%84%84%E5%85%83%E7%9A%84%E5%8F%B0%E7%81%A3%E4%BA%BA-bafyreih7r2vapq66m2pp2qqpqy7pj3zn2i3imk7i6wx2kvd3peavhckjee)
     * 兩位台灣NFT先鋒藝術家：王新仁與吳哲宇 / [聯合報500輯](https://500times.udn.com/wtimes/story/120842/6050011)
-    * 藝文內容走向元宇宙 施振榮鼓勵跨界共創 / [Yahoo 奇摩新聞](https://tw.news.yahoo.com/%E8%97%9D%E6%96%87%E5%85%A7%E5%AE%B9%E8%B5%B0%E5%90%91%E5%85%83%E5%AE%87%E5%AE%99-%E6%96%BD%E6%8C%AF%E6%A6%AE%E9%BC%93%E5%8B%B5%E8%B7%A8%E7%95%8C%E5%85%B1%E5%89%B5-034324175.html) , [自由娛樂](https://ent.ltn.com.tw/news/paper/1497670) , [聯合報]( https://udn.com/news/story/7240/6056969) , [中時新聞網](https://www.chinatimes.com/realtimenews/20220124004643-260410?chdtv) [蘋果日報]( https://www.appledaily.com.tw/property/20220124/QP2SECB4CBGEFJ777R75CYATKM/), [ETToday](https://finance.ettoday.net/news/2176808?redirect=1) [理財周刊](https://www.moneyweekly.com.tw/ArticleData/Info/Article/76948) 
+    * 藝文內容走向元宇宙 施振榮鼓勵跨界共創 / [Yahoo 奇摩新聞](https://tw.news.yahoo.com/%E8%97%9D%E6%96%87%E5%85%A7%E5%AE%B9%E8%B5%B0%E5%90%91%E5%85%83%E5%AE%87%E5%AE%99-%E6%96%BD%E6%8C%AF%E6%A6%AE%E9%BC%93%E5%8B%B5%E8%B7%A8%E7%95%8C%E5%85%B1%E5%89%B5-034324175.html) , [自由娛樂](https://ent.ltn.com.tw/news/paper/1497670) , [聯合報]( https://udn.com/news/story/7240/6056969) , [中時新聞網](https://www.chinatimes.com/realtimenews/20220124004643-260410?chdtv) [蘋果日報]( https://www.appledaily.com.tw/property/20220124/QP2SECB4CBGEFJ777R75CYATKM/), [ETToday](https://finance.ettoday.net/news/2176808?redirect=1) [理財周刊](https://www.moneyweekly.com.tw/ArticleData/Info/Article/76948)
 * Online Courses
     * [用 50 個小時，與 4,300 位同學一起「自己動畫互動網頁自己做」/ Crowd Watch](http://crowdwatch.tw/post/2735/?fbclid=IwAR2M0U_m0vXuHVrSixxmNcdA58TgeXUV1uf6tskwa8s5Hfila5Ppnq9sN6Y)
     * [突破線上課程低完課率，引領 4,300 名學生走入程式設計！](https://www.inside.com.tw/article/9629-how-to-create-successful-online-curriculum-fund-raising-plan) / Inside 關鍵評論網
     * [大學倒光光，為什麼它吸引6萬學生？](https://www.cw.com.tw/article/5090677) / 天下雜誌
- 
+
 * Growth & Life Style
     * [為何台灣人總要等「準備好了」才敢行動？或許我們從小教育就少了這一種態度......](https://www.storm.mg/lifestyle/251519?page=1) / 風傳媒
-    * [專訪吳哲宇：人生沒有完全準備好的時候，唯有不停進化才能騰空翱翔 / Hahow好學校](https://blog.hahow.in/interview-of-hahow-teacher-che-yu/) 
+    * [專訪吳哲宇：人生沒有完全準備好的時候，唯有不停進化才能騰空翱翔 / Hahow好學校](https://blog.hahow.in/interview-of-hahow-teacher-che-yu/)
 
 
 * New Media Art
