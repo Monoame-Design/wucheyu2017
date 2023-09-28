@@ -10,58 +10,68 @@ import pageProjectEdit from '@/components/pages/pageProjectEdit'
 import pageThesis from '@/components/pages/pageThesis'
 import pageArts from '@/components/pages/pageArts'
 import pageNft from '@/components/pages/pageNft'
+import pageExhibition2023 from '@/components/pages/pageExhibition2023'
 
 Vue.use(Router)
 
 export default new Router({
   mode: 'history',
   routes: [{
-    path: '/',
-    name: 'index',
-    component: pageIndex
-  }, {
-    path: '/about',
-    name: 'about',
-    component: pageAbout
-  }, {
-    path: '/nft',
-    name: 'nft',
-    component: pageNft
-  }, {
-    path: '/nft/:name',
-    name: 'nft',
-    component: pageNft
-  },
-  {
-    path: '/research',
-    name: 'research',
-    component: pageResearch
-  },
-  {
-    path: '/experiment',
-    name: 'experiment',
-    component: pageExperiment
-  }, {
-    path: '/work',
-    name: 'work',
-    component: pageWorks
-  }, {
-    path: '/arts',
-    name: 'arts',
-    component: pageArts
-  }, {
-    path: '/manage',
-    name: 'project_edit',
-    component: pageProjectEdit
-  }, {
-    path: '/thesis',
-    name: 'thesis',
-    component: pageThesis
-  }, {
-    path: '/project/:id',
-    name: 'project',
-    component: pageProject
-  }
+      path: '/',
+      name: 'index',
+      component: pageIndex
+    }, {
+      path: '/about',
+      name: 'about',
+      component: pageAbout
+    }, {
+      path: '/nft',
+      name: 'nft',
+      component: pageNft
+    }, {
+      path: '/nft/:name',
+      name: 'nft',
+      component: pageNft
+    },
+    {
+      path: '/research',
+      name: 'research',
+      component: pageResearch
+    },
+    {
+      path: '/research',
+      name: 'research',
+      component: pageResearch
+    },
+    {
+      path: '/experiment',
+      name: 'experiment',
+      component: pageExperiment
+    }, {
+      path: '/work',
+      name: 'work',
+      component: pageWorks
+    }, {
+      path: '/arts',
+      name: 'arts',
+      component: pageArts
+    }, {
+      path: '/manage',
+      name: 'project_edit',
+      component: pageProjectEdit
+    }, {
+      path: '/thesis',
+      name: 'thesis',
+      component: pageThesis
+    }, {
+      path: '/project/:id',
+      name: 'project',
+      component: pageProject
+    }, {
+      path: '/exhibition/2023',
+      name: 'exhibition2023',
+      component: pageExhibition2023
+    }
   ],
   scrollBehavior(to, from, savedPosition) {
     return new Promise((resolve, reject) => {
