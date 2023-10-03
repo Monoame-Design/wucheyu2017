@@ -1,33 +1,41 @@
 <template lang="pug">
-  #app
-    .container-fluid
-      .row
-        .col-sm-12
-          nav(v-if="!$route.path.includes('manage') && !$route.path.includes('/project/')",
-              )
-            //- router-link(to="/" :class="{active: $route.path=='/'}") Index
-            //- router-link(to="/about" :class="{active: $route.path=='/about'}") About
-            router-link(to="/")
-              h2.d-none.d-md-block CHE-YU WU
-              h2.d-md-none CYW
-            div.subroute(:class="{white: $route.path=='/about'}")
-              router-link(to="/work" :class="{active: $route.path=='/work'}") Work
-              router-link(to="/about" :class="{active: $route.path=='/about'}") About
-              //router-link(to="/experiment" :class="{active: $route.path=='/experiment'}") Experiments
-              router-link(to="/arts" :class="{active: $route.path=='/arts'}") Art
-              router-link(to="/nft" :class="{active: $route.path=='/nft'}") NFT
-              router-link(to="/thesis" :class="{active: $route.path=='/thesis'}").d-none.d-md-inline-block Thesis
-              //- router-link(to="/research" :class="{active: $route.path=='/research'}") Research
-              //- a(href="/static/Che-Yu Wu Resume.pdf" target="blank" :class="{active: $route.path=='/resume'}") Resume
-    transition(name="page" , mode="out-in")
-      pageLoading(v-if="loading")
-    transition(name="page" , mode="out-in")
-      router-view(:key="$route.path")
-    .row.copyright.mt-5(v-if="$route.path!='/thesis'")
-      .col-sm-12.mt-2.pt-1.pb-5
-        label Copyright© Che-Yu Wu, 2020
-        .text-center.mt-2
-          social-links
+#app
+  .container-fluid
+    .row
+      .col-sm-12
+        nav(
+          v-if="!$route.path.includes('manage') && !$route.path.includes('/project/')"
+        )
+          //- router-link(to="/" :class="{active: $route.path=='/'}") Index
+          //- router-link(to="/about" :class="{active: $route.path=='/about'}") About
+          router-link(to="/")
+            h2.d-none.d-md-block CHE-YU WU
+            h2.d-md-none CYW
+          .subroute(:class="{ white: $route.path == '/about' }")
+            router-link(to="/work", :class="{ active: $route.path == '/work' }") Work
+            router-link(to="/about", :class="{ active: $route.path == '/about' }") About
+            //router-link(to="/experiment" :class="{active: $route.path=='/experiment'}") Experiments
+            router-link(to="/arts", :class="{ active: $route.path == '/arts' }") Art
+            router-link(
+              to="/exhibition/2023",
+              :class="{ active: $route.path == '/exhibition/2023' }"
+            ) Exhibition
+            router-link(to="/nft", :class="{ active: $route.path == '/nft' }") NFT
+            router-link.d-none.d-md-inline-block(
+              to="/thesis",
+              :class="{ active: $route.path == '/thesis' }"
+            ) Thesis
+            //- router-link(to="/research" :class="{active: $route.path=='/research'}") Research
+            //- a(href="/static/Che-Yu Wu Resume.pdf" target="blank" :class="{active: $route.path=='/resume'}") Resume
+  transition(name="page", mode="out-in")
+    pageLoading(v-if="loading")
+  transition(name="page", mode="out-in")
+    router-view(:key="$route.path")
+  .row.copyright.mt-5(v-if="$route.path != '/thesis'")
+    .col-sm-12.mt-2.pt-1.pb-5
+      label Copyright© Che-Yu Wu, 2020
+      .text-center.mt-2
+        social-links
 </template>
 
 <script>
@@ -39,11 +47,11 @@ export default {
   name: "app",
   components: {
     pageLoading,
-    "social-links": socialLinks
+    "social-links": socialLinks,
   },
   computed: {
-    ...mapState(["loading"])
-  }
+    ...mapState(["loading"]),
+  },
 };
 </script>
 
