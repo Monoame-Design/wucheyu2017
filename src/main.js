@@ -48,7 +48,9 @@ var vm = new Vue({
   router,
   store,
   template: '<App/>',
-  components: { App }
+  components: {
+    App
+  }
 })
 setTimeout(() => {
   store.commit("setLoading", false)
@@ -61,9 +63,9 @@ setTimeout(() => {
 try {
   $.getJSON("/static/sketchs.json", (data) => {
     store.commit("setUserData", data)
-    $.getJSON("/static/sketchs.php", (data) => {
-      store.commit("setUserData", data)
-    })
+    // $.getJSON("/static/sketchs.php", (data) => {
+    //   store.commit("setUserData", data)
+    // })
   })
 } catch (err) {
   $.getJSON("/static/sketchs.json", (data) => {
