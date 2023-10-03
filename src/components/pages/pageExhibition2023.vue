@@ -12,8 +12,6 @@
     hr
     h2.mt-5 展覽介紹
     iframe.mt-1(
-      width="100%",
-      height="600",
       src="https://www.youtube.com/embed/J99tOkS0a44?si=Z92PPJ-OPTO5lxOO",
       title="YouTube video player",
       frameborder="0",
@@ -39,7 +37,7 @@
       .col-sm-6
         h2 新媒體藝術家 吳哲宇
         .imagebox(
-          :style="{ background: 'url(https://systemeblob.blob.core.windows.net/allticket-prod/media/3169d23f-7457-4342-938a-0316b6605bff.jpg)' }"
+          :style="{ background: 'url(https://systemeblob.blob.core.windows.net/allticket-prod/media/3169d23f-7457-4342-938a-0316b6605bff.jpg)', backgroundSize: 'cover' }"
         )
         p.mt-3 吳哲宇是一位跨領域新媒體藝術家、設計師、工程師、講師與創業者。結合電機工程背景與音樂、藝術等，從自然、物理、現代藝術、數學韻律、音樂中取材，創造複合式藝術作品，探索藝術與工程的邊界以及極致的互動體驗。吳哲宇除了專精於創作生成式藝術作品，同時致力推廣程式藝術，於Hahow開設動態網頁與互動藝術程式創作課程，引領超過萬名同學進入互動設計的世界。
         p Profile link:
@@ -52,7 +50,7 @@
       .col-sm-6
         h2 電子音樂家 / KIVΛMKII
         .imagebox(
-          :style="{ backgroundImage: 'url(https://systemeblob.blob.core.windows.net/allticket-prod/media/9be0a359-1bc7-4717-ae38-a1cd70faf6c9.png)' }"
+          :style="{ backgroundImage: 'url(https://systemeblob.blob.core.windows.net/allticket-prod/media/9be0a359-1bc7-4717-ae38-a1cd70faf6c9.png)', backgroundSize: 'cover' }"
         )
         p.mt-3 Kiva wu是一位電子音樂家，創辦KIVΛMKII從事電子音樂設計與教學，擅長Bass Music / Sci-Fi / Cinematic 等曲風製作、節奏/音效設計、各種曲風之配樂製作。主攻 Ableton Live，亦精通 FL Studio。作品常見於電視劇、音樂遊戲、樂團及歌手單曲之中，曾為知名遊戲公司Rayark Inc. 之音樂總監、各大專院校及社團之客座講師，如臺灣大學數位音樂研究社、臺南藝術大學應用音樂系、臺北藝術大學應用音樂系……等，是引領臺灣電子音樂界的重要人物。
         p Profile link：
@@ -104,4 +102,7 @@ export default {
 
 .listenbox
   padding: 10px
+iframe
+  width: 100%
+  aspect-ratio: 1920/1080
 </style>
