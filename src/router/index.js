@@ -11,6 +11,7 @@ import pageThesis from '@/components/pages/pageThesis'
 import pageArts from '@/components/pages/pageArts'
 import pageNft from '@/components/pages/pageNft'
 import pageExhibition2023 from '@/components/pages/pageExhibition2023'
+import pageLexus2023 from '@/components/pages/pageLexus2023'
 
 Vue.use(Router)
 
@@ -71,6 +72,10 @@ export default new Router({
       path: '/exhibition/2023',
       name: 'exhibition2023',
       component: pageExhibition2023
+    }, {
+      path: '/lexus2023',
+      name: 'lexus2023',
+      component: pageLexus2023
     }
   ],
   scrollBehavior(to, from, savedPosition) {
