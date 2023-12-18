@@ -1,5 +1,5 @@
 <template lang="pug">
-.page-exhibition.text-left
+.page-exhibition.text-left.soulfish-yilan
   .container-fluid.pb-5.px-3.pt-5
     .row
       .col-12.px-5.w-100.col-md-4
@@ -57,20 +57,20 @@ export default {
 
 <style lang="sass">
 // @import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap')
-.page-exhibition
+.page-exhibition.soulfish-yilan
   background-color: black
   color: white
   min-height: 100vh
-.imagebox
-  width: 100%
-  aspect-ratio: 1920/1080
-  background-color: #333
-  background-size: cover
+  .imagebox
+    width: 100%
+    aspect-ratio: 1920/1080
+    background-color: #333
+    background-size: cover
 
-.listenbox
-  padding: 10px
-iframe
-  width: 100%
-  aspect-ratio: 1920/1080
-  border: none
+  .listenbox
+    padding: 10px
+  iframe
+    width: 100%
+    aspect-ratio: 1920/1080
+    border: none
 </style>

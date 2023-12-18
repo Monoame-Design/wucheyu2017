@@ -1,5 +1,5 @@
 <template lang="pug">
-.page-exhibition.text-left
+.page-exhibition.text-left.lexus-2023
   .container-fluid.pb-5.px-3.pt-5
     .row
       .col-md-6.px-5.h-100
@@ -58,20 +58,20 @@ export default {
 
 <style lang="sass">
 // @import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap')
-.page-exhibition
+.page-exhibition.lexus-2023
   background-color: black
   color: white
   min-height: 100vh
-.imagebox
-  width: 100%
-  aspect-ratio: 1/0.8
-  background-color: #333
-  background-size: cover
+  .imagebox
+    width: 100%
+    aspect-ratio: 1/0.8
+    background-color: #333
+    background-size: cover
 
-.listenbox
-  padding: 10px
-iframe
-  width: 100%
-  aspect-ratio: 5/6
-  border: none
+  .listenbox
+    padding: 10px
+  iframe
+    width: 100%
+    aspect-ratio: 5/6
+    border: none
 </style>
