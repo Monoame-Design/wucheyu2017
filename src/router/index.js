@@ -12,6 +12,7 @@ import pageArts from '@/components/pages/pageArts'
 import pageNft from '@/components/pages/pageNft'
 import pageExhibition2023 from '@/components/pages/pageExhibition2023'
 import pageLexus2023 from '@/components/pages/pageLexus2023'
+import pageSoulfishYilan2023 from '@/components/pages/pageSoulfishYilan2023'
 
 Vue.use(Router)
 
@@ -76,7 +77,12 @@ export default new Router({
       path: '/lexus2023',
       name: 'lexus2023',
       component: pageLexus2023
+    }, {
+      path: '/campaign/soulfish_yilan_2023',
+      name: 'soulfish_yilan_2023',
+      component: pageSoulfishYilan2023
     }
+
   ],
   scrollBehavior(to, from, savedPosition) {
     return new Promise((resolve, reject) => {
