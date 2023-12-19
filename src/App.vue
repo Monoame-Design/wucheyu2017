@@ -71,7 +71,8 @@ canvas
   z-index: -1
   left: 0
   top: 0
-
+html
+  overflow-x: hidden
 body
   font-family: 'IBM Plex Sans', sans-serif
   -webkit-font-smoothing: antialiased
@@ -81,7 +82,7 @@ body
   background-color: #fff
   color: #111
   overflow-x: hidden
-  overflow-y: scroll
+  overflow-y: auto
 
 .page
   min-height: 100vh
