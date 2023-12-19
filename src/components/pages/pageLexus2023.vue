@@ -37,11 +37,11 @@ import socialLinks from "@/components/socialLinks";
 export default {
   metaInfo() {
     return {
-      title: "《萬物公式》數位生命演化之旅",
+      title: "《城市輪廓》與 Lexus 驚探生活誌的雜誌封面共創",
       meta: [
         {
           property: "og:image",
-          content: "/static/img/ex2023.jpeg",
+          content: "/static/img/city.jpeg",
         },
       ],
     };
