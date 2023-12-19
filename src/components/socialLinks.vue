@@ -11,6 +11,7 @@ This is the data for the social links in the footer. The data is in the form of 
   ) 
     |
     |
+    |
     i(:class="link.iconClass")
 </template>
 <script>
@@ -25,7 +26,7 @@ export default {
           iconClass: "fab fa-linkedin-in",
         },
         {
-          href: "https://www.instagram.com/bosscodingplease/",
+          href: "https://www.instagram.com/cheyuwu345/",
           target: "_blank",
           label: "Instagram",
           iconClass: "fab fa-instagram",
