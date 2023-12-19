@@ -12,14 +12,23 @@
             h2.d-none.d-md-block CHE-YU WU
             h2.d-md-none CYW
           .subroute(:class="{ white: $route.path == '/about' }")
-            router-link(to="/work", :class="{ active: $route.path == '/work' }") Work
-            router-link(to="/about", :class="{ active: $route.path == '/about' }") About
-            //router-link(to="/experiment" :class="{active: $route.path=='/experiment'}") Experiments
-            router-link(to="/arts", :class="{ active: $route.path == '/arts' }") Art
             router-link(
-              to="/exhibition/2023",
-              :class="{ active: $route.path == '/exhibition/2023' }"
-            ) Exhibition
+              to="/work",
+              :class="{ active: $route.path == '/work' }"
+            ) Work
+            router-link(
+              to="/about",
+              :class="{ active: $route.path == '/about' }"
+            ) About
+            //router-link(to="/experiment" :class="{active: $route.path=='/experiment'}") Experiments
+            router-link(
+              to="/arts",
+              :class="{ active: $route.path == '/arts' }"
+            ) Art
+            //- router-link(
+            //-   to="/exhibition/2023",
+            //-   :class="{ active: $route.path == '/exhibition/2023' }"
+            //- ) Exhibition
             router-link(to="/nft", :class="{ active: $route.path == '/nft' }") NFT
             router-link.d-none.d-md-inline-block(
               to="/thesis",
