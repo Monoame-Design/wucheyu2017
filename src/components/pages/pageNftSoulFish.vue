@@ -10,7 +10,7 @@
         )
     .row.pt-5
       .col-12
-        h1 
+        h1
           a(
             href="https://www.fxhash.xyz/generative/slug/soulfish",
             target="_blank"
@@ -62,12 +62,13 @@
         //-     | &nbsp;Set Reminder
   .container-fluid.pt-5(v-if="soulFishData")
     .row 
+      |
       a.col-lg-2.col-sm-6.col-xs-4(
         v-for="objkt in soulFishData",
         :href="objkt.href",
         target="_blank"
       )
-        span \#{{ objkt.href.split('/').slice(-1)[0] }}
+        span \#{{ objkt.href.split("/").slice(-1)[0] }}
         //- span {{ objkt.metadata.thumbnailUri }}
         img.w-100(:src="objkt.src", style="aspect-ratio: 1")
   //.container-fluid.text-left.pb-5

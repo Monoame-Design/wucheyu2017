@@ -1,13 +1,34 @@
 <template lang="pug">
 .page-nft-all.text-left
   .container.pt-md-5.pb-md-5(v-if="!workName")
-    a.row.py-3.nft-item(href="https://opensea.io/assets/ethereum/0x33fd426905f149f8376e227d0c9d3340aad17af1/74" target="_blank")
+    router-link.row.py-3.nft-item(to="/nft/thesoulofflowers")
       .col-md-5
-        iframe.w-100(
-          src="https://ipfs.io/ipfs/bafybeig7eymxakrydhgok5ixunaxszoewdizlkw2afohg6js5j7ajjiuvi",
-          style="width: 100%; aspect-ratio: 1; border: none"
+        img.w-100(
+          src="/static/nft/the_soul_of_flowers/flower demo.png",
+          alt=""
         )
-
+      .col-md-7
+        h2 The Soul of Flowers
+        h3
+        h5 Fxhash, Dec 6th 2022, 200 editions
+        p In the vast open fields, I once glimpsed the beauty of blooming flowers, Heard indescribable murmurs that became unforgettable. With longing and pain, I moved slowly forward, crossing the northern seas. In a blink, the origin of this long journey seemed lost.
+        p Lost in the dawn before the storm, I discovered that some things in life were quietly changing direction. Perhaps, we are living more transparently, more authentically.
+        p After releasing this series of works, I am filled with indescribable complex emotions.
+          | Perhaps a fragment of the soul has indeed achieved life and will eternally exist.
+          | Eventually blossoming into a field of flowers, existing forever.
+        p What's wrong with living willfully?
+          | Forget everything.
+          | On the island of flowers, it's best to be a happy caterpillar.
+    a.row.py-3.nft-item(
+      href="https://opensea.io/assets/ethereum/0x33fd426905f149f8376e227d0c9d3340aad17af1/74",
+      target="_blank"
+    )
+      .col-md-5
+        img.w-100(src="/static/nft/hamilywagmi.gif")
+        //- iframe.w-100(
+        //-   src="https://ipfs.io/ipfs/bafybeig7eymxakrydhgok5ixunaxszoewdizlkw2afohg6js5j7ajjiuvi",
+        //-   style="width: 100%; aspect-ratio: 1; border: none"
+        //- )
 
       .col-md-7
         h2 Hamily x The Memes by 6529 x Che-Yu Wu
@@ -40,7 +61,10 @@
           li Press S to download image
           li Press H to go to the Hamily website
 
-    a.row.py-3.nft-item(href="https://app.manifold.xyz/c/230206-Memegineering" target="_blank")
+    a.row.py-3.nft-item(
+      href="https://app.manifold.xyz/c/230206-Memegineering",
+      target="_blank"
+    )
       .col-md-5
         img.w-100(
           src="https://i.seadn.io/gcs/files/548b31d254f1caf5a115304d9b3cff76.gif?auto=format&w=960",
@@ -91,15 +115,9 @@
         p If we are not a fish, how do we know the joy of a fish?<br>How do we know that we do not know the joy of fish?
         p We will only learn about it when we come to the riverside.
 
-    a.row.py-3.nft-item(
-      href="https://fab.tw/",
-      target="_blank"
-    )
+    a.row.py-3.nft-item(href="https://fab.tw/", target="_blank")
       .col-md-5
-        img.w-100(
-          src="/static/img/Projectp.png",
-          alt=""
-        )
+        img.w-100(src="/static/img/Projectp.png", alt="")
       .col-md-7
         h2 Project % - FABDAO
         h3
@@ -116,10 +134,7 @@
       target="_blank"
     )
       .col-md-5
-        img.w-100(
-          src="/static/img/soulsea.png",
-          alt=""
-        )
+        img.w-100(src="/static/img/soulsea.png", alt="")
 
         //- iframe.w-100(
         //-   src="https://gateway.fxhash2.xyz/ipfs/QmPDfMShxb1iQ12bwV4LivT5pC1UXoL9ZRcjjC7grr3r9P/?fxhash=ooto45sU86CaUZFWxUduRyCPqRYpVoSmKrcRcrkJ8DCxwziDb6o",
@@ -133,7 +148,6 @@
         p The soul is the sea. You are the land.<br/>There are waves on the shore, and the waves are slices.
         p Gazing at the slices, you feel the coldness of the Arctic Ocean, the permafrost of the Antarctic Sea, the deep darkness of the bottomless sea.
         p Stay silent, hear the sound of the waves lapping at the innumerable shores far away.<br>Feel the soul of the digital ocean.
-
 
     a.row.py-3.nft-item(
       href="https://sliderverse.doodlelabs.io/",
@@ -173,12 +187,9 @@
         h5 Sep 5th 2021 | 732/732 editions
         p CryptoPochis are mysterious creatures that capture different emotions in your daily life. Their faces speak for themselves. They simply lie on the ground and play all day. We catch and wrap them as NFTs for you to play with.
 
-    a.row.py-3.nft-item(href="https://hamily.life/" target="_blank")
+    a.row.py-3.nft-item(href="https://hamily.life/", target="_blank")
       .col-md-5
-        img.w-100(
-          src="/static/img/strange robot.png",
-          alt=""
-        )
+        img.w-100(src="/static/img/strange robot.png", alt="")
       .col-md-7
         h2 Seaham - Strange Robot
         h3
@@ -198,13 +209,14 @@
         h5 July 1st 2021
         p [Che-Yu Wu | Generative Art 4K Classic series]
         p Classic series will only mint a maximum of 10 works per algorithm on Foundation.
-  .container.pt-2.pb-md-5
+  .container.pt-2.pb-md-4
     router-link(to="/nft", v-if="workName") < Back
   PageNftMemes(v-if="workName == 'memes'")
   PageNftElectriz(v-if="workName == 'electriz'")
   PageNftSoulFish(v-if="workName == 'soulfish'")
   PageNftFoundation(v-if="workName == 'foundation'")
   PageNftTheSoul(v-if="workName == 'thesoul'")
+  PageNftTheSoulOfFlowers(v-if="workName == 'thesoulofflowers'")
 </template>
 
 <script>
@@ -214,6 +226,7 @@ import PageNftSoulFish from "./pageNftSoulFish";
 import PageNftFoundation from "./PageNftFoundation";
 import PageNftTheSoul from "./pageNftTheSoul.vue";
 import PageNftMemes from "./pageNftMemes.vue";
+import PageNftTheSoulOfFlowers from "./PageNftTheSoulOfFlowers.vue";
 export default {
   metaInfo() {
     if (workName == "electriz") {
@@ -222,9 +235,9 @@ export default {
         meta: [
           {
             property: "og:image",
-            content: "/static/img/electriz-og.png"
-          }
-        ]
+            content: "/static/img/electriz-og.png",
+          },
+        ],
       };
     } else if (workName == "soulfish") {
       return {
@@ -233,9 +246,9 @@ export default {
           {
             property: "og:image",
             content:
-              "https://gateway.fxhash2.xyz/ipfs/QmUxarxjf9JtSpfVAaKVEWt2sjChzwsL2A3az9bvivA9Fj"
-          }
-        ]
+              "https://gateway.fxhash2.xyz/ipfs/QmUxarxjf9JtSpfVAaKVEWt2sjChzwsL2A3az9bvivA9Fj",
+          },
+        ],
       };
     } else if (workName == "foundation") {
       return {
@@ -243,9 +256,9 @@ export default {
         meta: [
           {
             property: "og:image",
-            content: "/static/img/foundation-og.png"
-          }
-        ]
+            content: "/static/img/foundation-og.png",
+          },
+        ],
       };
     } else if (workName == "thesoul") {
       return {
@@ -253,9 +266,19 @@ export default {
         meta: [
           {
             property: "og:image",
-            content: "/static/img/the-soul-og.png"
-          }
-        ]
+            content: "/static/img/the-soul-og.png",
+          },
+        ],
+      };
+    } else if (workName == "thesoulofflowers") {
+      return {
+        title: "The Soul of Flowers by Che-Yu Wu",
+        meta: [
+          {
+            property: "og:image",
+            content: "/static/nft/the_soul_of_flowers/flower demo.png",
+          },
+        ],
       };
     } else if (workName == "memes") {
       return {
@@ -263,24 +286,25 @@ export default {
         meta: [
           {
             property: "og:image",
-            content: "/static/img/memes-og.png"
-          }
-        ]
+            content: "/static/img/memes-og.png",
+          },
+        ],
       };
     }
   },
   computed: {
     workName() {
       return this.$route.params.name;
-    }
+    },
   },
   components: {
     ElectrizDemo,
     PageNftElectriz,
     PageNftSoulFish,
     PageNftFoundation,
-    PageNftTheSoul
-  }
+    PageNftTheSoulOfFlowers,
+    PageNftTheSoul,
+  },
 };
 </script>
 
