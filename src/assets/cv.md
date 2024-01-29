@@ -7,17 +7,22 @@ Che-Yu is the founder of [Monoame Design](https://monoame.com/) 8 years ago and 
 In recent years after graduating from [**New York University, Integrated Digital Media MS**](http://idm.engineering.nyu.edu/), he devoted himself to advocating for and introducing over ten thousands students to **creative coding and new media art** through his Hahow online courses on animated website development and creative coding for interactive experience design.
 
 ## NFT Projects
-- **[Che-Yu Wu x 6529 Meme cards](https://opensea.io/assets/ethereum/0x33fd426905f149f8376e227d0c9d3340aad17af1/74)** Season 2, Card 2 | 2023/3/2 | 690 editions, Interactive with cheering
-- **[Che-Yu Wu Interactive Memes](https://www.curate.page/t/cheyuwu)** | Memegineering / Check Hams
-- [**SoulSea (300 mints) on FxHash**](https://www.fxhash.xyz/generative/5438) Feel the soul of the digital ocean.
-- [**SoulFish on FxHash**](https://www.fxhash.xyz/generative/15625) Named after the artist Wu Che-Yu, the soul fish was born in the void and crystallized from human emotions.
+- **[Urban Contour | fxHash | 114 editions, 2024](https://www.fxhash.xyz/generative/0x1B80898BaD0f98ACf278E5F6db7bB98c0977444f)**
+- **[The Soul of Flowers | fxHash | 200 editions, 2023](https://www.fxhash.xyz/generative/29643)**
+- **[SoulSea | fxHash | 300 editions, 2021](https://www.fxhash.xyz/generative/5438)** Feel the soul of the digital ocean.
+- **[SoulFish | fxHash | 400 editions, 2022](https://www.fxhash.xyz/generative/15625)** Named after the artist Wu Che-Yu, the soul fish was born in the void and crystallized from human emotions.
 - [**Project % in FABDAO**](https://project.fab.tw/) The Largest Charity NFT fundraising project in Taiwan
 - **Inspiration Artwork - [Strange Robots](https://openprocessing.org/sketch/1150492) for Seahams** on [ArtBlocks](https://artblocks.io/) 
 - [**Creator of CryptoPochi**](https://opensea.io/collection/cryptopochi) - An Interactive NFT and on-chain creature
 - [**Algorithm Arts on Foundation**](https://foundation.app/@cheyuwu) - Exploring the boundary of Physics, Math, Music, and Art.
 - [**Project Electriz**](https://www.artblocks.io/project/216) on Artblocks https://cheyuwu.com/nft 
 - [**Generative Art NFT License**](https://opensea.io/collection/che-yu-wu-generative-art) on Opensea
-- [**Che-Yu Wu x White Castle SliderVerse**](https://sliderverse.doodlelabs.io/) - interactive style with White Castle’s legendary sliders to explore the intersection between food, art, tech and culture.
+- **[Che-Yu Wu Interactive Memes](https://www.curate.page/t/cheyuwu)** | Memegineering / Check Hams
+- **[Che-Yu Wu x 6529 Meme cards](https://opensea.io/assets/ethereum/0x33fd426905f149f8376e227d0c9d3340aad17af1/74)** Season 2, Card 2 | 2023/3/2 | 690 editions, Interactive with cheering
+
+## Collabs
+- **[Che-Yu Wu x White Castle | SliderVerse, 2021](https://sliderverse.doodlelabs.io/)** - interactive style with White Castle’s legendary sliders to explore the intersection between food, art, tech and culture.
+- **[Che-Yu Wu x Lexus | Urban Contour, 2024 ](https://www.instagram.com/p/C1RhUxYPQZe/?img_index=1)**
 
 ## Artworks
 ![](https://i.imgur.com/OimOeuY.jpg)
@@ -29,6 +34,10 @@ In recent years after graduating from [**New York University, Integrated Digital
 
 ## Exhibition
 ![](https://i.imgur.com/UTTpQ5T.jpg)
+- 2023/12 / 靈魂魚(Soul Fish) / 宜蘭映像節 / Condé Nast TAIWAN
+- 2023/12 / Taipei Blockchain Week / BuzhiDAO
+- 2023/12 / NFT Taipei
+- 2023/11 / The Soul / 2023 上海光點藝術節 - 光點影展
 - 2023/10 / [𝙎𝙋𝘼𝙍𝙆𝙇𝙀𝙎](https://superrare.com/spaces/onbd/gallery) / ONBD & Superrare
 - 2023/10 / Digital Art Fair Asia / w/ Unit London
 - 2023/10 / Solo Exhibition "The Great Equation" / 101 AMBI SPACE ONE / Taiwan
