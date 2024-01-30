@@ -209,7 +209,7 @@ export default {
     padding: 0
   .item-inner
     border: solid 1px rgba(255,255,255,0.3)
-    padding: 50px
+    padding: 3vmin
     transition-duration: 1s
     position: relative
     overflow: hidden
