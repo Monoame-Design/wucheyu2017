@@ -8,14 +8,12 @@
         )
           //- router-link(to="/" :class="{active: $route.path=='/'}") Index
           //- router-link(to="/about" :class="{active: $route.path=='/about'}") About
-          router-link(to="/")
-            h2.d-none.d-md-block CHE-YU WU
-            h2.d-md-none CYW
+          router-link.main-logo(to="/")
+            h2.d-none.d-md-block
+              img(src="/static/img/cheyuwu/CHEYUWU__Primary Logo_White.png")
+            h2.d-md-none
+              img(src="/static/img/cheyuwu/CHEYUWU__WU Symbol_White.png")
           .subroute(:class="{ white: $route.path == '/about' }")
-            router-link(
-              to="/work",
-              :class="{ active: $route.path == '/work' }"
-            ) Work
             router-link(
               to="/about",
               :class="{ active: $route.path == '/about' }"
@@ -34,6 +32,10 @@
               to="/thesis",
               :class="{ active: $route.path == '/thesis' }"
             ) Thesis
+            router-link(
+              to="/work",
+              :class="{ active: $route.path == '/work' }"
+            ) Work
             //- router-link(to="/research" :class="{active: $route.path=='/research'}") Research
             //- a(href="/static/Che-Yu Wu Resume.pdf" target="blank" :class="{active: $route.path=='/resume'}") Resume
   transition(name="page", mode="out-in")
@@ -79,8 +81,8 @@ body
   -moz-osx-font-smoothing: grayscale
   text-align: center
   // color: #fff
-  background-color: #fff
-  color: #111
+  background-color: #000
+  color: #fff
   overflow-x: hidden
   overflow-y: auto
 
@@ -101,14 +103,20 @@ nav
   justify-content: space-between
   align-items: center
   transition: 0.5s
+  .main-logo
+    img
+      height: 80px
+      // filter: invert(100%)
+      margin: -15px
+
   h2,a
     transition: 0.5s
   h2
     font-size: 1.5rem
     font-weight: 900
-    color: black
+    color: white
   a
-    color: black
+    color: white
     transition: 0.5s
     &:hover,&.active
       // border-bottom: solid 3px

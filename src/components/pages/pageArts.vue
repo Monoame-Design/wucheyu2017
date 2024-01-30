@@ -1,22 +1,24 @@
 <template lang="pug">
 .page-art
   .container
-    .row.mt-3
-      .col-12
-        h1 Generative Arts
-        p.mb-5 Keep exploring the world with curious mind and imaginations.
+    .row
+      .col-12.mt-0
+        //- h1.mb-3 Generative Arts
+        //- p.mb-5 Keep exploring the world with curious mind and imaginations.
         .row.display-flex.justify-content-center.align-items-center
-          .col-lg-6.text-left
-            input.d-none.d-lg-block(v-model="keyword", placeholder="Search")
-          .col-lg-6.text-center 
-            |
+          .col-12
+            input.float-right.d-none.d-lg-block(
+              v-model="keyword",
+              placeholder="Search"
+            )
+          //.col-lg-6.text-center 
             a.mr-5(
               href="https://www.instagram.com/bosscodingplease/",
               target="_blank",
               title="Instagram"
             )
               i.fab.fa-instagram
-              span.ml-1 Bosscodingplease
+              span.ml-1 Che-Yu Wu
             a(
               href="https://twitter.com/cheyuwu345",
               target="_blank",
@@ -28,22 +30,20 @@
               href="https://foundation.app/@cheyuwu",
               target="_blank",
               title="Instagram"
-            ) 
-              |
+            )
               img.icon.mr-1(src="/static/icon_foundation.jpeg")
               span.ml-1 Foundation
             a(
               href="https://opensea.io/account?tab=created",
               target="_blank",
               title="Instagram"
-            ) 
-              |
+            )
               img.icon.mr-1(src="/static/icon_opensea.png")
               span.ml-1 Opensea
 
   .container
     .row.mt-4
-      a.col-sm-6.col-md-4.col-lg-3.wow.fadeIn(
+      a.item.col-xl-4.col-lg-6.col-md-6.wow.fadeIn(
         v-for="(item, itemId) in filteredSketches",
         :href="`https://www.openprocessing.org/sketch/${item.visualID}`",
         target="_blank",
@@ -51,11 +51,26 @@
         @mouseleave="hoveringItem = null",
         :key="item.title"
       )
-        img(
-          :src="hoveringItem === item && getGifUrl(item) ? getGifUrl(item) : getThumbnail(item)"
-        )
-        //img(:src="( hoveringItem===item && getGifUrl(item))? getGifUrl(item): getCacheUrl(getThumbnail(item),item.title)")
-        h5.mb-5 \#{{ item.title }}
+        .item-inner
+          //- img(
+          //-   :src="hoveringItem === item && getGifUrl(item) ? getGifUrl(item) : getThumbnail(item)"
+          //- )
+          img.bg(
+            :src="hoveringItem === item && getGifUrl(item) ? getGifUrl(item) : getThumbnail(item)"
+          )
+          .container-fluid
+            .row.align-items-center
+              .col-md-4.col-sm-5
+                img(
+                  :src="hoveringItem === item && getGifUrl(item) ? getGifUrl(item) : getThumbnail(item)"
+                )
+              .col-md-8.col-sm-7
+                h5 {{ getTitleInfo(item.title).name }}
+                .barcode
+                  img(
+                    :src="hoveringItem === item && getGifUrl(item) ? getGifUrl(item) : getThumbnail(item)"
+                  )
+                pre.text-left.mt-5 Date: {{ getTitleInfo(item.title).date }}
 </template>
 
 <script>
@@ -83,11 +98,15 @@ export default {
     });
     wow.init();
   },
+
   computed: {
     ...mapState(["userData"]),
     sketches() {
+      // console.log(this.userData.user);
       if (this.userData.user) {
-        let results = this.userData.user.visuals.filter((p) => p.pinnedOn);
+        let results = (this.userData.user.visuals || []).filter(
+          (p) => p.pinnedOn
+        );
         results.sort((a, b) => (a.createdOn > b.createdOn ? -1 : 1));
         return results;
       }
@@ -114,6 +133,13 @@ export default {
     getThumbnail(item) {
       return `https://openprocessing-usercontent.s3.amazonaws.com/thumbnails/visualThumbnail${item.visualID}@2x.jpg`;
     },
+    getTitleInfo(title) {
+      title = title || " ";
+      return {
+        date: title.split(" ")[0],
+        name: title.slice(title.indexOf(" ")),
+      };
+    },
   },
   created() {},
 };
@@ -124,10 +150,25 @@ export default {
   color: white
   padding-top: 50px
   min-height: 100vh
+  .barcode
+    // transform: scaleY(100)
+    overflow: hidden
+    height: 20px
+    width: 100%
+    @keyframes moving
+      0%
+        transform: scaleY(500) translateY(5%)
+      100%
+        transform: scaleY(500) translateY(15%)
+    img
+      transform: scaleY(500)
+      transition-duration: 1s
+      animation: moving 40s infinite alternate
+
   *
     color: white
   .container
-    max-width: 1700px
+    max-width: 100%
   a
     color: white
     padding: 5px 10px
@@ -137,10 +178,10 @@ export default {
     color: white
     margin-top: 15px
     margin-bottom: 30px
-    border-bottom: 2px solid white
+    // border-bottom: 2px solid white
 
     font-weight: 600
-    font-size: 1.4rem
+    font-size: 1.6rem
     text-align: left
   img
     width: 100%
@@ -163,4 +204,31 @@ export default {
     height: 25px
     width: auto
     margin-left: 50px
+  .item
+    // padding: 5px
+    padding: 0
+  .item-inner
+    border: solid 1px rgba(255,255,255,0.3)
+    padding: 50px
+    transition-duration: 1s
+    position: relative
+    overflow: hidden
+    .bg
+      position: absolute
+      left: 50%
+      top: 50%
+      transform: translate(-50%,-50%)
+      width: 100%
+      opacity: 0
+      z-index: 100
+      pointer-events: none
+      display: none
+    &:hover
+      border: solid 1px rgba(255,255,255,0.5)
+      background-color: rgba(255,255,255,0.1)
+      .barcode
+        img
+          transform: scaleY(500) translateY(1%)
+      .bg
+        opacity: 0.1
 </style>

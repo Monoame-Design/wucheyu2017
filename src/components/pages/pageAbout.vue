@@ -7,7 +7,7 @@
   .container.mt-5
     .row.py-5
       .col-lg-5
-        img.w-100(src="/static/img/about_photo.jpg")
+        img.w-100(src="/static/img/2023_cyw.JPG")
       .col-lg-7
         h1.mt-2 Che-Yu Wu 吳哲宇
         h5 New Media Artist / Founder of Monoame Design
@@ -17,6 +17,11 @@
         p(
           v-html="mdToHtml(`Wu's online courses on creative coding and new media art have inspired tens of thousands of students in Asia. Currently based in New York City, Wu is the founder of Monoame Design and has worked with [Taipei City Government](https://english.gov.taipei/), [National Palace Museum](https://www.npm.gov.tw/?l=2), [Nissan](https://www.nissanusa.com/), and [White Castle](https://www.whitecastle.com/), to name a few.`)"
         )
+    .row
+      .col-12
+        h2 Artistic Statement
+        p Che-Yu Wu, a contemporary new media artist from Taiwan, infuses his works with algorithms, crafting eternal life and emotions in the digital realm. Rooted at the intersection of engineering and art, he delves into nature, physics, modern art, and mathematics. By employing advanced algorithms and interactive technologies, Wu bestows a unique language and vitality to digital art.
+        p His works not only present visual splendor but also build an emotional and spiritual bridge between the virtual and the real. He guides viewers to explore the poetic dimensions where the essence of the world and the touch of digital life converge. Some of his most recognizable works include "Seaham" on Artblocks, "CryptoPochi," and "SoulFish.”
   .container.pt-4.content(v-html="htmlContent")
     //- .row
     //-   .col-sm-12
