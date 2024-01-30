@@ -4,7 +4,7 @@
     router-link.row.py-3.nft-item(to="/nft/thesoulofflowers")
       .col-md-5
         img.w-100(
-          src="/static/nft/the_soul_of_flowers/flower demo.png",
+          src="/static/nft/the_soul_of_flowers/flower demo.jpeg",
           alt=""
         )
       .col-md-7
