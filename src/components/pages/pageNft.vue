@@ -1,13 +1,32 @@
 <template lang="pug">
-.page-nft-all.text-left
+.page-nft-all.text-left.p-3
   .container.pt-md-5.pb-md-5(v-if="!workName")
+    a.row.py-3.nft-item(
+      href="https://www.fxhash.xyz/generative/0x1B80898BaD0f98ACf278E5F6db7bB98c0977444f",
+      target="_blank"
+    )
+      .col-md-5.col-lg-6
+        img.w-100(src="/static/nft/urban_contour/main.jpeg", alt="")
+      .col-md-7.col-lg-6
+        h2 Urban Contour
+        h3
+        h5 Fxhash, Jan 5th 2024, 114 editions
+        p 「 In the urban mirage, phantoms dance with time's fleeting gleam,
+          br
+          | Where futures are still under construction, like a dream.
+          br
+          | With the solid forms of the material world, we trace,
+          br
+          | Undefined beauties and fantasies, a wistful space. 」 / Che-Yu Wu
+        p
+          | "Urban Contour" is a generative Impressionist program art piece that constructs a collective subconscious of a city. In many fragments, we can discover aspects similar to our own living environments. This artwork is a collective made up of everyone's impressions of the city. Within its abstract lines and structures, it connects the memories of each individual, carrying our dreams and fantasies about the future and ourselves.
     router-link.row.py-3.nft-item(to="/nft/thesoulofflowers")
-      .col-md-5
+      .col-md-5.col-lg-6
         img.w-100(
           src="/static/nft/the_soul_of_flowers/flower demo.jpeg",
           alt=""
         )
-      .col-md-7
+      .col-md-7.col-lg-6
         h2 The Soul of Flowers
         h3
         h5 Fxhash, Dec 6th 2022, 200 editions
@@ -23,14 +42,14 @@
       href="https://opensea.io/assets/ethereum/0x33fd426905f149f8376e227d0c9d3340aad17af1/74",
       target="_blank"
     )
-      .col-md-5
+      .col-md-5.col-lg-6
         img.w-100(src="/static/nft/hamilywagmi.gif")
         //- iframe.w-100(
         //-   src="https://ipfs.io/ipfs/bafybeig7eymxakrydhgok5ixunaxszoewdizlkw2afohg6js5j7ajjiuvi",
         //-   style="width: 100%; aspect-ratio: 1; border: none"
         //- )
 
-      .col-md-7
+      .col-md-7.col-lg-6
         h2 Hamily x The Memes by 6529 x Che-Yu Wu
         h3
         h5 Season 2, Card 2 | 2023/3/2 | 690 editions
@@ -65,20 +84,20 @@
       href="https://app.manifold.xyz/c/230206-Memegineering",
       target="_blank"
     )
-      .col-md-5
+      .col-md-5.col-lg-6
         img.w-100(
           src="https://i.seadn.io/gcs/files/548b31d254f1caf5a115304d9b3cff76.gif?auto=format&w=960",
           alt=""
         )
 
-      .col-md-7
+      .col-md-7.col-lg-6
         h2 230206 MEMEGINEERING
         h3
         h5 Che-Yu Wu Interactive Memes | 2023 | 420 editions
         p Piping interactive memes as the digital blood of the internet.
         p Memegineering is all about bringing dynamic and interactive experiences to the world of memes. These memes are not just static images, but rather they are designed to be interactive, allowing users to engage with the content in a unique and exciting way. Whether you're clicking, tapping, or scrolling, these memes are sure to provide a fun and dynamic experience that will keep you entertained for hours. With 420 editions, there's a never-ending supply of interactive memes to explore, making Memegineering a must-see for anyone who loves humor, memes, and the internet.
     router-link.row.py-3.nft-item(to="/nft/thesoul")
-      .col-md-5
+      .col-md-5.col-lg-6
         iframe.w-100(
           src="https://ipfs.io/ipfs/bafybeidjaufhp24iz36rqonu3yhbxtj2inznnzuil3jmpkhp4dynq4gxee",
           style="width: 100%; aspect-ratio: 1; border: none"
@@ -88,7 +107,7 @@
         //-   src="https://gateway.fxhash2.xyz/ipfs/QmSjD9c2S8tN4f8QpJSRtxHhkKRtpiA8LmEoNRWAdxANW7",
         //-   alt=""
         //- )
-      .col-md-7
+      .col-md-7.col-lg-6
         h2 The Soul
         h3
         h5 Che-Yu Wu Interactive Collection | 2023 | 100 editions
@@ -96,7 +115,7 @@
         p "The Soul" was inspired by Olafur Eliasson's "The Weather Project" installation from 2003, as well as the brand visual for the 2022 Solana Breakpoint Conference. The use of fluorescent colours and gradients in the conference's branding inspired the use of these elements in my own work.
         p I developed while attending the conference. The work aims to bring the outside world inside and create a cosmic vision for the audience to experience. The work is meant to resemble an immense, floating eye staring into the void and asking the audience to consider the meaning of life and their deepest desires.
     router-link.row.py-3.nft-item(to="/nft/soulfish")
-      .col-md-5
+      .col-md-5.col-lg-6
         iframe.w-100(
           src="https://gateway.fxhash2.xyz/ipfs/QmWYvkFHPLBkmv1CSCK5vpm3MSBggbALDqRZQXitzPPLJn/?fxhash=oodGicCkjQy2pe9gZLrDXhTnYHP4hfsKY1QizPyuRdmVNzvUEzu",
           style="width: 100%; aspect-ratio: 1; border: none"
@@ -106,7 +125,7 @@
         //-   src="https://gateway.fxhash2.xyz/ipfs/QmSjD9c2S8tN4f8QpJSRtxHhkKRtpiA8LmEoNRWAdxANW7",
         //-   alt=""
         //- )
-      .col-md-7
+      .col-md-7.col-lg-6
         h2 SoulFish
         h3
         h5 fxhash, June 2nd 2022, 1000 editions
@@ -116,9 +135,9 @@
         p We will only learn about it when we come to the riverside.
 
     a.row.py-3.nft-item(href="https://fab.tw/", target="_blank")
-      .col-md-5
+      .col-md-5.col-lg-6
         img.w-100(src="/static/img/Projectp.png", alt="")
-      .col-md-7
+      .col-md-7.col-lg-6
         h2 Project % - FABDAO
         h3
         h5 The Largest Charity NFT fundraising project in Taiwan
@@ -133,14 +152,14 @@
       href="https://www.fxhash.xyz/generative/5438",
       target="_blank"
     )
-      .col-md-5
+      .col-md-5.col-lg-6
         img.w-100(src="/static/img/soulsea.png", alt="")
 
         //- iframe.w-100(
         //-   src="https://gateway.fxhash2.xyz/ipfs/QmPDfMShxb1iQ12bwV4LivT5pC1UXoL9ZRcjjC7grr3r9P/?fxhash=ooto45sU86CaUZFWxUduRyCPqRYpVoSmKrcRcrkJ8DCxwziDb6o",
         //-   style="width: 100%; aspect-ratio: 1; border: none"
         //- )
-      .col-md-7
+      .col-md-7.col-lg-6
         h2 SoulSea
         h3
         h5 fxhash, Dec 29th 2021, 300 editions
@@ -153,12 +172,12 @@
       href="https://sliderverse.doodlelabs.io/",
       target="_blank"
     )
-      .col-md-5
+      .col-md-5.col-lg-6
         img.w-100(
           src="https://doodlelabs.mo.cloudinary.net/mainnet/1001272.png?tx=w_600",
           alt=""
         )
-      .col-md-7
+      .col-md-7.col-lg-6
         h2 Sliderverse
         h3
         h5 Doodle Lab, Dec 15th 2021 | 1284/5001 editions
@@ -166,9 +185,9 @@
         p And in keeping with White Castle’s spirit of feeding the souls of their communities and team members, a portion of the proceeds from Sliderverse will directly benefit our Team Member Relief Fund and the Ingram-White Castle Team Member Scholarship.
 
     router-link.row.py-3.nft-item(to="/nft/electriz")
-      .col-md-5
+      .col-md-5.col-lg-6
         img.w-100(src="https://media.artblocks.io/216000000.png", alt="")
-      .col-md-7
+      .col-md-7.col-lg-6
         h2 Electriz
         h3
         h5 Artblocks, Dec 7th 2021, 910 editions
@@ -176,21 +195,21 @@
         p The space in the work "Electriz" is divided into parts with different physical characteristics, which affect the movement, rotation, splitting, and annihilation of particles. It is an unpredictable experimental system with unlimited possibilities to explore the intersection of physics, mathematics, and art.
 
     a.row.py-3.nft-item(href="https://cryptopochi.com/", target="_blank")
-      .col-md-5
+      .col-md-5.col-lg-6
         img.w-100(
           src="https://pochi.nyc3.digitaloceanspaces.com/mainnet/0x26cb33fba22f213952b8b3f3af006913b6c5b5e91081bb5c9c7764c66c98b44b.gif",
           alt=""
         )
-      .col-md-7
+      .col-md-7.col-lg-6
         h2 Crypto Pochi
         h3
         h5 Sep 5th 2021 | 732/732 editions
         p CryptoPochis are mysterious creatures that capture different emotions in your daily life. Their faces speak for themselves. They simply lie on the ground and play all day. We catch and wrap them as NFTs for you to play with.
 
     a.row.py-3.nft-item(href="https://hamily.life/", target="_blank")
-      .col-md-5
+      .col-md-5.col-lg-6
         img.w-100(src="/static/img/strange robot.png", alt="")
-      .col-md-7
+      .col-md-7.col-lg-6
         h2 Seaham - Strange Robot
         h3
         h5 March 28th 2021
@@ -198,12 +217,12 @@
         p Sail-o-bots is based on the original generative project Strange Robots by Che-Yu WuSource code derived from https://openprocessing.org/sketch/1150492 under CC-BY-SA 3.0 license. Modifications include: custom botGlasses variable added with 3 different cases; custom botLips variable added with 3 different cases; 10 sets of custom colors added; antennas, ear and nose size and geometric shape types updated.
 
     router-link.row.py-3.nft-item(to="/nft/foundation")
-      .col-md-5
+      .col-md-5.col-lg-6
         img.w-100(
           src="https://f8n-ipfs-production.imgix.net/QmdDNqJ9J9fEsTAaBjmdnHZ1px2zGS8BXnUnBvzdQCwSaN/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
           alt=""
         )
-      .col-md-7
+      .col-md-7.col-lg-6
         h2 Foundation Classic Series
         h3
         h5 July 1st 2021
@@ -320,7 +339,7 @@ export default {
     &:hover
       text-decoration: none
   .container
-    max-width: 1400px
+    max-width: 1500px
   .nft-item
     border: solid 1px rgba(white,0.3)
     transition: 0.2s
