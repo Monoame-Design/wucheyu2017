@@ -1,43 +1,23 @@
 <template lang="pug">
 .page-nft-all.text-left.p-3
   .container.pt-md-5.pb-md-5(v-if="!workName")
-    a.row.py-3.nft-item(
-      href="https://www.fxhash.xyz/generative/0x1B80898BaD0f98ACf278E5F6db7bB98c0977444f",
-      target="_blank"
+    component.row.py-3.nft-item(
+      v-for="item in nftItems",
+      :is="getLinkComponent(item.url)",
+      :href="item.url",
+      :to="item.url",
+      target="_blank",
+      :key="item.id"
     )
       .col-md-5.col-lg-6
-        img.w-100(src="/static/nft/urban_contour/main.jpeg", alt="")
+        img.w-100(:src="item.imageUrl", :alt="item.title")
       .col-md-7.col-lg-6
-        h2 Urban Contour
+        h2 {{ item.title }}
         h3
-        h5 Fxhash, Jan 5th 2024, 114 editions
-        p 「 In the urban mirage, phantoms dance with time's fleeting gleam,
-          br
-          | Where futures are still under construction, like a dream.
-          br
-          | With the solid forms of the material world, we trace,
-          br
-          | Undefined beauties and fantasies, a wistful space. 」 / Che-Yu Wu
-        p
-          | "Urban Contour" is a generative Impressionist program art piece that constructs a collective subconscious of a city. In many fragments, we can discover aspects similar to our own living environments. This artwork is a collective made up of everyone's impressions of the city. Within its abstract lines and structures, it connects the memories of each individual, carrying our dreams and fantasies about the future and ourselves.
-    router-link.row.py-3.nft-item(to="/nft/thesoulofflowers")
-      .col-md-5.col-lg-6
-        img.w-100(
-          src="/static/nft/the_soul_of_flowers/flower demo.jpeg",
-          alt=""
-        )
-      .col-md-7.col-lg-6
-        h2 The Soul of Flowers
-        h3
-        h5 Fxhash, Dec 6th 2022, 200 editions
-        p In the vast open fields, I once glimpsed the beauty of blooming flowers, Heard indescribable murmurs that became unforgettable. With longing and pain, I moved slowly forward, crossing the northern seas. In a blink, the origin of this long journey seemed lost.
-        p Lost in the dawn before the storm, I discovered that some things in life were quietly changing direction. Perhaps, we are living more transparently, more authentically.
-        p After releasing this series of works, I am filled with indescribable complex emotions.
-          | Perhaps a fragment of the soul has indeed achieved life and will eternally exist.
-          | Eventually blossoming into a field of flowers, existing forever.
-        p What's wrong with living willfully?
-          | Forget everything.
-          | On the island of flowers, it's best to be a happy caterpillar.
+        h5 {{ item.platform }}, {{ item.date }}, {{ item.editions }} editions
+        p(v-html="item.description1")
+        p(v-html="item.description2")
+
     a.row.py-3.nft-item(
       href="https://opensea.io/assets/ethereum/0x33fd426905f149f8376e227d0c9d3340aad17af1/74",
       target="_blank"
@@ -247,6 +227,37 @@ import PageNftTheSoul from "./pageNftTheSoul.vue";
 import PageNftMemes from "./pageNftMemes.vue";
 import PageNftTheSoulOfFlowers from "./PageNftTheSoulOfFlowers.vue";
 export default {
+  data() {
+    return {
+      nftItems: [
+        {
+          id: 1,
+          title: "Urban Contour",
+          platform: "Fxhash",
+          date: "Jan 5th 2024",
+          editions: "114",
+          description1: `「 In the urban mirage, phantoms dance with time's fleeting gleam,
+                          <br> Where futures are still under construction, like a dream.
+                          <br> With the solid forms of the material world, we trace,
+                          <br> Undefined beauties and fantasies, a wistful space. 」 / Che-Yu Wu`,
+          description2: `"Urban Contour" is a generative Impressionist program art piece that constructs a collective subconscious of a city. In many fragments, we can discover aspects similar to our own living environments. This artwork is a collective made up of everyone's impressions of the city. Within its abstract lines and structures, it connects the memories of each individual, carrying our dreams and fantasies about the future and ourselves.`,
+          imageUrl: "/static/nft/urban_contour/main.jpeg",
+          url: "https://www.fxhash.xyz/generative/0x1B80898BaD0f98ACf278E5F6db7bB98c0977444f",
+        },
+        {
+          id: 2,
+          title: "The Soul of Flowers",
+          platform: "Fxhash",
+          date: "Dec 6th 2022",
+          editions: "200",
+          description1: `In the vast open fields, I once glimpsed the beauty of blooming flowers, Heard indescribable murmurs that became unforgettable. With longing and pain, I moved slowly forward, crossing the northern seas. In a blink, the origin of this long journey seemed lost.`,
+          description2: `Lost in the dawn before the storm, I discovered that some things in life were quietly changing direction. Perhaps, we are living more transparently, more authentically. After releasing this series of works, I am filled with indescribable complex emotions. Perhaps a fragment of the soul has indeed achieved life and will eternally exist. Eventually blossoming into a field of flowers, existing forever. What's wrong with living willfully? Forget everything. On the island of flowers, it's best to be a happy caterpillar.`,
+          imageUrl: "/static/nft/the_soul_of_flowers/flower demo.jpeg",
+          url: "/nft/thesoulofflowers",
+        },
+      ],
+    };
+  },
   metaInfo() {
     if (workName == "electriz") {
       return {
@@ -314,6 +325,17 @@ export default {
   computed: {
     workName() {
       return this.$route.params.name;
+    },
+  },
+  methods: {
+    isInternalLink(url) {
+      // Implement logic to determine if the URL is an internal link
+      // For example, check if URL starts with '/' for simplicity
+      return url.startsWith("/");
+    },
+    getLinkComponent(url) {
+      // Returns 'router-link' for internal links, otherwise returns 'a'
+      return this.isInternalLink(url) ? "router-link" : "a";
     },
   },
   components: {
